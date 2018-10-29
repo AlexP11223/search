@@ -1,0 +1,1507 @@
+﻿----------------------- Page 1-----------------------
+
+                   Artificial Intelligence: 
+
+                Opportunities and Risks 
+
+                                Policy paper 
+
+Artificial intelligence (AI) and increasingly complex algorithms currently influence our lives 
+
+and our civilization more than ever.  The areas of AI application are diverse and the possi- 
+
+bilities extensive:  in particular, because of improvements in computer hardware, certain 
+
+AI algorithms already surpass the capacities of human experts today.        As AI capacity im- 
+
+proves, its field of application will grow further.  In concrete terms, it is likely that the rel- 
+
+evant algorithms will start optimizing themselves to an ever greater degree—maybe even 
+
+reaching superhuman levels of intelligence. This technological progress is likely to present 
+
+us with historically unprecedented ethical challenges. Many experts believe that alongside 
+
+global opportunities, AI poses global risks, which will be greater than, say, the risks of nu- 
+
+clear technology—which in any case have historically been underestimated. Furthermore, 
+
+scientific risk analysis suggests that high potential damages should be taken very seriously 
+
+even if the probability of their occurrence were low. 
+
+                                     12 December 2015 
+
+----------------------- Page 2-----------------------
+
+Policy paper by the Eective Altruism Foundation. 
+
+Preferred citation: Mannino, A., Althaus, D., Erhardt, J., Gloor, L., Hutter, A. and Metzinger, T. (2015). 
+
+Artificial Intelligence: Opportunities and Risks. Policy paper by the Eective Altruism Foundation (2): 
+
+1-16. 
+
+First published (in German): 12 December 2015. 
+
+www.foundational-research.org 
+www.ea-stiung.org 
+
+----------------------- Page 3-----------------------
+
+Contents 
+
+Executive Summary     . . . . . . . . . . . . . . . . . . . . . . .   1 
+
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 
+
+Advantages and risks of current AIs  . . . . . . . . . . . . .        3 
+
+Automation and unemployment  . . . . . . . . . . . . . . .            5 
+
+General intelligence and superintelligence . . . . . . . .            7 
+
+Artificial consciousness  . . . . . . . . . . . . . . . . . . . . .   9 
+
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10 
+
+Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . 11 
+
+Supporters . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11 
+
+Bibliography       . . . . . . . . . . . . . . . . . . . . . . . . . . . 12 
+
+                                                                            ADRIANO MANNINO, Philosopher & Co-President, Eective 
+
+                                                                            Altruism Foundation 
+
+                                                                             DAVID ALTHAUS, Assistant Director, Foundational Research 
+
+                                                                             Institute 
+
+                                                                             DR.   JONATHAN ERHARDT, Scientific consultant, Eective 
+
+                                                                            Altruism Foundation 
+                                                                             LUKAS GLOOR,  Researcher,  Foundational Research Insti- 
+
+                                                                            tute 
+
+                                                                             DR.   ADRIAN HUTTER,  Physics Department,  University of 
+
+                                                                             Basel 
+
+                                                                             PROF.  THOMAS METZINGER, Professor of Philosophy, Uni- 
+
+                                                                            versity of Mainz 
+
+----------------------- Page 4-----------------------
+
+
+----------------------- Page 5-----------------------
+
+Artificial Intelligence: Opportunities and Risks 
+
+ Executive Summary 
+
+Artificial intelligence (AI) and increasingly complex algorithms currently influence our lives and our civilization more than 
+
+ever before. The areas of AI application are diverse and the possibilities far-reaching, and thanks to recent improvements 
+
+in computer hardware, certain AI algorithms already surpass the capacities of today’s human experts. As AI capacity im- 
+
+ proves, its field of application will continue to grow. In concrete terms, it is likely that the relevant algorithms will start opti- 
+
+ mizing themselves to an ever greater degree and may one day attain superhuman levels of intelligence. This technological 
+
+ progress is likely to present us with historically unprecedented ethical challenges. Many experts believe that, alongside 
+
+global opportunities, AI poses global risks surpassing those of e.g. nuclear technology (whose risks were severely under- 
+
+estimated prior to their development). Furthermore, scientific risk analyses suggest that high potential damages resulting 
+
+from AI should be taken very seriously—even if the probability of their occurrence were low. 
+
+Current 
+
+ In narrow, well-tested areas of application, such as driverless cars and certain areas of medical diagnostics, the superiority 
+
+of AIs over humans is already established. An increased use of technology in these areas oers great potential, including 
+
+fewer road traic accidents, fewer mistakes in the medical treatment and diagnosing of patients, and the discovery of 
+
+ many new therapies and pharmaceuticals. In complex systems where several algorithms interact at high speed (such as in 
+
+the financial market or in foreseeable military uses), there is a heightened risk that new AI technologies will be misused, or 
+
+will experience unexpected systematic failures. There is also the threat of an arms race in which the safety of technological 
+
+developments is sacrificed in favor of rapid progress. In any case, it is crucial to know which goals or ethical values ought 
+
+to be programmed into AI algorithms and to have a technical guarantee that the goals remain stable and resistant to 
+
+ manipulation.  With driverless cars, for instance, there is the well-known question of how the algorithm should act if a 
+
+collision with several pedestrians can only be avoided by endangering the passenger(s), not to mention how it can be 
+
+ensured that the algorithms of driverless cars are not at risk of hacking systematic failure. 
+
+  Measure 1  The promotion of a factual, rational discourse is essential so that cultural prejudices can be dismantled 
+
+  and the most pressing questions of safety can be focused upon. 
+
+  Measure 2    Legal frameworks must be adapted so as to include the risks and potential of new technologies. AI manu- 
+
+  facturers should be required to invest more in the safety and reliability of technologies, and principles like predictabil- 
+
+  ity, transparency, and non-manipulability should be enforced, so that the risk of (and potential damage from) unex- 
+
+  pected catastrophes can be minimized. 
+
+ Mid-term 
+
+ Progress in AI research makes it possible to replace increasing amounts of human jobs with machines. Many economists 
+
+assume that this increasing automation could lead to a massive increase in unemployment within even the next 10-20 
+
+years. It should be noted that while similar predictions in the past have proved inaccurate, the developments discussed 
+
+ here are of a new kind, and it would be irresponsible to ignore the possibility that these predictions come true at some 
+
+ point. Through progressive automation, the global statistical average living standard will rise; however, there is no guar- 
+
+antee that all people—or even a majority of people—will benefit from this. 
+
+----------------------- Page 6-----------------------
+
+Artificial Intelligence: Opportunities and Risks 
+
+  Measure 3  Can we as a society deal with the consequences of AI automation in a sensible way? Are our current social 
+
+  systems suiciently prepared for a future wherein the human workforce increasingly gives way to machines?  These 
+
+  questions must be clarified in detail. If need be, proactive measures should be taken to cushion negative developments 
+
+  or to render them more positive.  Proposals like an unconditional basic income or a negative income tax are worth 
+  examining as possible ways to ensure a fair distribution of the profits from increased productivity. 
+
+Long-term 
+
+Many AI experts consider it plausible that this century will witness the creation of AIs whose intelligence surpasses that 
+
+of humans in all respects.  The goals of such AIs could in principle take on any possible form (of which human ethical 
+
+goals represent only a tiny proportion) and would influence the future of our planet decisively in ways that could pose 
+
+an existential risk to humanity. Our species only dominates Earth (and, for better or worse, all other species inhabiting 
+
+it) because it currently has the highest level of intelligence. But it is plausible that by the end of the century, AIs will be 
+
+developed whose intelligence compares to ours as ours currently compares to, say, chimpanzees.  Moreover, the possi- 
+
+bility cannot be excluded that AIs also develop phenomenal states—i.e. (self-)consciousness, and in particular subjective 
+
+preferences and the capacity for suering—in the future,which would confront us with new kinds of ethical challenges. In 
+
+view of the immediate relevance of the problem and its longer-term implications, considerations of AI safety are currently 
+
+highly underrepresented in politics as well as research. 
+
+  Measure 4    It is worth developing institutional measures to promote safety, for example by granting research funding 
+
+  to projects which concentrate on the analysis and prevention of risks in AI development. Politicians must, in general, 
+
+  allocate more resources towards the ethical development of future-shaping technologies. 
+
+  Measure 5    Eorts towards international research collaboration (analogous to CERN’s role in particle physics) are to 
+
+  be encouraged. International coordination is particularly essential in the field of AI because it also minimizes the risk 
+
+  of a technological arms race. A ban on all risky AI research would not be practicable, as it would lead to a rapid and 
+
+  dangerous relocation of research to countries with lower safety standards. 
+
+  Measure 6  Certain AI systems are likely to have the capacity to suer, particularly neuromorphic ones as they are 
+
+  structured analogously to the human brain. Research projects that develop or test such AIs should be placed under 
+  the supervision of ethical commissions (analogous to animal research commissions). 
+
+                                                               2 
+
+----------------------- Page 7-----------------------
+
+                                                                               Artificial Intelligence: Opportunities and Risks 
+
+Introduction 
+
+The pursuit of knowledge runs as a governing principle             casions.  In 1997 the computer Deep Blue beat the reign- 
+
+through human history.  Whenever societies have under-             ing world champion Garry Kasparov at chess [11]; in 2011 
+
+gone significant changes in their dynamics and structure,          Watson beat the two best human players on the language- 
+
+this  has  normally  been  the  result  of  new  technological     based game show Jeopardy! [12]; and in 2015 the first vari- 
+
+inventions.   Around two million years separate the first          ant of poker, Fixed Limit Holdem heads-up, was game the- 
+
+use of stone tools from the historic moment when Homo              oretically fully solved by Cepheus [13].  Meanwhile, artifi- 
+
+sapiens invented art and began to paint images on cave             cial neural networks can compete with human experts in 
+
+walls.  Another thirty thousand years passed before the            the diagnosis of cancer cells [14] and are also more or less 
+
+rise of arable farming and permanent settlement. The first         approaching human levels in the recognition of handwrit- 
+
+symbols appeared a few thousand years aer that,  fol-             ten Chinese characters [15].  Back in 1994, a self-learning 
+
+lowed closely by the first written scripts.    Then, around        backgammon program reached the level of the world’s 
+
+four hundred years ago, development began speeding up.             best players by finding strategies that had never before 
+
+The microscope was invented in the seventeenth century;            been played by humans [16]. By now, there even exist algo- 
+
+industrialization  in  the  nineteenth  century  enabled  the      rithms that can independently learn many dierent games 
+
+first cities of a million people;  and during the last cen-        from scratch and thereby reach (or surpass) human levels 
+
+tury alone,  the atom was split,  humans set foot on the           [17, 18].  With these developments, we are slowly getting 
+
+Moon, and the computer was invented.         Since then, the       closer to a general intelligence, which at least in principle 
+
+processing capabilities and energy eiciency of computers          can solve problems of all sorts independently. 
+
+have doubled at regular intervals [1]. But while technolog-           With great power comes great responsibility. Technol- 
+
+ical progress oen develops exponentially, the same is not         ogy is in itself just a tool; what matters is how we use it. 
+
+true for human intellectual abilities.                             The use of existing AIs is already presenting us with consid- 
+
+    In recent years, countless renowned scientists and en-         erable ethical challenges, which will be illuminated in the 
+
+trepreneurs have warned of the urgent significance of AI,          next section of this paper. The following chapter will out- 
+
+and how important it is that policy makers tackle the chal-        line developments in economic automation, and explain 
+
+lenges raised by AI research [2].  Exponents of this move-         the mid-term prognosis that AI research will give rise to a 
+
+ment for AI safety include Stuart Russell [3], Nick Bostrom        significant restructuring of the labor market.  Finally, the 
+[4], Stephen Hawking [5], Sam Harris [6], Max Tegmark [7],         two last chapters will discuss the long-term and existen- 
+
+Elon Musk [8], Jann Tallinn [9] and Bill Gates [10].               tial risks of AI research in relation to the possible creation 
+    In certain  domain-specific    areas,  AIs have   already      of (super)human intelligence and artificial consciousness. 
+
+reached or even overtaken human levels on several oc- 
+
+Advantages and risks of current AIs 
+
+Our  individual  lives  and  our  civilization  as  a  whole  are  a US stock market le the financial world dumbfounded. 
+
+governed to an ever-increasing extent by algorithms and            The crash occurred as a result of computer algorithms in- 
+
+domain-specific    artificial intelligence (AIs) [19].  Well-      teracting with the financial market in an unforeseen man- 
+
+known examples include such ubiquitous things as smart-            ner [25, 26].  Within minutes, important shares lost more 
+phones, air traic control systems [20] and internet search        than 90% of their worth and then quickly returned to their 
+
+engines [21]. Financial markets, too, are dependent on al-         high initial value. If such an event were to take place in 
+
+gorithms which are too large and complex for any single            a military context, a comparable “return to initial condi- 
+
+human being to fully understand [22, 23].  The operation           tions” would be improbable [27].  To prevent devastating 
+
+of such algorithms, for the most part, proceed without in-         failures of this sort, it seems generally advisable to invest 
+
+cident, but there is always the possibility that an unlikely       considerably more resources into the safety and reliability 
+
+“black swan” event [24] might occur, threaten to plunge            of AIs.  Unfortunately, current economic incentives seem 
+
+the whole system into chaos. We have already witnessed             to favor increased AI capacity far more than safety. 
+
+one such event:  in 2010, an unexpected "flash crash" in 
+
+                                                               3 
+
+----------------------- Page 8-----------------------
+
+Artificial Intelligence: Opportunities and Risks 
+
+Four criteria for the construction of AIs                               regarding driverless cars, mainly because they underesti- 
+
+                                                                        mate the safety benefits thereof whilst at the same time 
+Safety is essential to the construction of any sort of ma- 
+                                                                        overestimating their own driving abilities.  As an illustra- 
+chine.   However, new ethical challenges arise when con- 
+                                                                        tion of this latter point, one study came to the conclusion 
+structing domain-specific AIs capable of taking over cog- 
+                                                                        that 93% of all American drivers believe that their driving 
+nitive work in social dimensions—work that,  until now, 
+                                                                        abilities are above the median [38]—which is statistically 
+has  been  carried  out  by  humans.       For  instance,  an  al- 
+                                                                        impossible.  Unrealistic optimism [39] and the illusion of 
+gorithm that judges the credit rating of bank customers 
+                                                                        control [40] possibly also bias people towards underes- 
+might  make  decisions  that  discriminate  against  certain 
+                                                                        timating the risks when they themselves are behind the 
+groups in the population (without this being explicitly pro- 
+                                                                        wheel [41, 42]. 
+grammed).     Even technologies that simply replace exist- 
+                                                                            Doctors, too, overestimate their abilities [43], which in 
+ing actions could introduce interesting challenges for ma- 
+                                                                        the worst case can lead to deadly mishaps.           In the USA 
+chine ethics [28]:    driverless cars, for instance, raise the 
+                                                                        alone, between an estimated 44,000 and 98,000 people 
+question of which criteria should be decisive in the case of 
+                                                                        die each year in hospitals because of treatment mistakes 
+an imminent accident. Should the vehicle ensure the sur- 
+                                                                        [44]. In this context, IBM’s Watson [45] is a welcome devel- 
+vival of the passengers above all else or should it, in the 
+                                                                        opment. This AI gained fame in 2011 when it beat the best 
+case of an unavoidable accident, prioritize keeping the to- 
+                                                                        human players on the quiz show Jeopardy!            [12]. Watson 
+tal number of casualties as low as possible [29]? 
+                                                                        isn’t just better than humans in quiz shows, however. Hos- 
+    Because of this, both AI theorist Eliezer Yudkowsky and 
+                                                                        pitals have been able to hire Watson’s computing power 
+philosopher Nick Bostrom have suggested four principles 
+                                                                        since 2014 for cancer diagnosis and other complex pattern- 
+which should guide the construction of new AIs [30]: 1) the 
+                                                                        recognition tasks.    Because “Doctor Watson” can rapidly 
+functioning of an AI should be comprehensible and 2) its 
+                                                                        collect and combine enormous quantities of information, 
+actions should be basically predictable. Both of these cri- 
+                                                                        it has partially overtaken the diagnostic skills of its human 
+teria must be met within a time frame that enables the re- 
+                                                                        colleagues [46, 47]. 
+sponsible experts to react in time and veto control in case 
+                                                                           The fact that a current AI can make more accurate med- 
+of a possible failure. In addition, 3) AIs should be impervi- 
+                                                                        ical diagnoses than human doctors may seem surprising at 
+ous to manipulation, and in case an accident still occurs, 4) 
+                                                                        first, but it has long been recognized that statistical infer- 
+the responsibilities should be clearly determined. 
+                                                                        ences are superior to clinical judgments by human experts 
+
+                                                                        in most cases [48, 49]. Seeing as AIs like Watson are ideal 
+Advantages of (domain specific) artificial intelligence 
+                                                                        for making statistical inferences, it follows that using com- 
+
+In  principle,  algorithms  and  domain-specific  AIs  bring            puters for certain types of diagnosis can save lives. 
+
+many  advantages.       They  have  influenced  our  lives  for 
+
+the better and are expected to keep doing so at an ever-                Cognitive biases: to err is human 
+
+increasing rate in the future, provided that the necessary 
+                                                                        One reason why human experts are less competent than 
+precautions are taken. Here we will discuss two instructive 
+                                                                        AIs at statistical inferences is the aforementioned (and, un- 
+examples. 
+                                                                        fortunately, all too human) tendency to overestimate one’s 
+    Driverless cars are no longer science fiction [31,  32]; 
+                                                                        own abilities.   This tendency is known as overconfidence 
+they’ll be commercially available in the foreseeable future. 
+                                                                        bias [50] and is just one of many documented cognitive bi- 
+The Google Driverless Car, which is driven completely by 
+                                                                        ases that can lead to systematic errors in human thinking 
+autonomous AI algorithms, took its first test drive in the 
+                                                                        [51, 52]. AIs, on the other hand, can be built so as to avoid 
+USA back in 2011 [33, 34]. Besides the time gained for work 
+                                                                        cognitive biases altogether. In principle, increasing confi- 
+or relaxation, a second advantage to driverless cars con- 
+                                                                        dence in the predictions of AIs could lead to a significantly 
+sists in their higher safety. In 2010, 1.24 million people died 
+                                                                        more rational and eicient approach to many social and 
+worldwide in traic accidents, nearly exclusively because 
+                                                                        political challenges, provided they are made safely and ac- 
+of human error [35].  Countless human lives could there- 
+                                                                        cording to comprehensible criteria. The problem here lies 
+fore be saved every year, because driverless cars are al- 
+                                                                        in using the strengths of AI without at the same time giving 
+ready significantly safer than vehicles driven by humans 
+                                                                        up human autonomy in the corresponding systems. 
+[36, 37]. 
+
+    Naturally, a large number of people remain skeptical 
+
+                                                                    4 
+
+----------------------- Page 9-----------------------
+
+                                                                                   Artificial Intelligence: Opportunities and Risks 
+
+Conclusion and outlook                                                    This  also  holds  for  artificial  intelligence: driverless 
+
+                                                                      cars could make our lives easier and save human lives, 
+Irrational fears towards new and basically advantageous 
+                                                                      but  complex  computer  algorithms  can  also  cause  the 
+technologies are widespread, both now and in the past 
+                                                                      stock market to crash unexpectedly.  While the risks from 
+[53].  Such “technophobia” may also be one of the rea- 
+                                                                      domain-specific  AIs  appear  limited  in  the  near  future, 
+sons that Watson or driverless cars are met with skepti- 
+                                                                      there are long-term developments to take into consider- 
+cism. However, being wary of kinds of technology is not al- 
+                                                                      ation:  in the not-so-distant future,  artificial intelligence 
+ways irrational. Most technologies can be used to the ben- 
+                                                                      could  in  principle  pose  an  existential  threat,  similar  in 
+efit of humanity, but can also be dangerous when they fall 
+                                                                      scope to the pandemic risks associated with biotechnol- 
+into the wrong hands, or when insuicient care is taken for 
+                                                                      ogy [54, 55, 4]. 
+safety and unforeseen side eects. 
+
+   Recommendation 1 — Responsible approach:  As with all other technologies, care should be taken to ensure that the 
+
+   (potential) advantages of AI research clearly outweigh the (potential) disadvantages. The promotion of a factual, ratio- 
+
+   nal discourse is essential so that irrational prejudices and fears can be broken down. Current legal frameworks have 
+
+   to be updated so as to accommodate the challenges posed by new technologies. The four principles described above 
+
+   should be followed for every extensive use of AIs [30].                                                                            
+
+Automation and unemployment 
+
+In light of recent successes in the field of machine learning         over, it is likely that a thorough understanding of the ways 
+
+and robotics, it seems there is only a matter of time until           in  which  various  computer  algorithms  compare  to  hu- 
+
+even complicated jobs requiring high intelligence could be            man decision-making and working abilities—as well as the 
+
+comprehensively taken over by machines [56].                          (dis)advantages of each—will become increasingly impor- 
+
+    If machines become quicker, more reliable and cheaper             tant in the future, thus necessitating high standards of ed- 
+
+than human workers in many areas of work, this would                  ucation [61]. 
+
+likely cause the labour market to be uprooted on a scale                  Following the automation of the production and ser- 
+
+not  seen  since  the  Industrial  Revolution.    According  to       vice industries, one might expect only the entertainment 
+
+economists like Cowen [57], McAfee and Brynjolfsson [58],             industry to remain; yet here, too, we are already witness- 
+
+technological progress will widen the income gap even fur-            ing extensive changes.  With flawless computer graphics, 
+
+ther and may lead to falling incomes and rising unemploy-             novel entertainment technologies, and countless smart- 
+
+ment in large segments of the population.                             phone apps all becoming increasingly aordable, the ad- 
+
+    A 2013 analysis concluded that it will likely be possible         dictive pull of videogames and internet usage is rising [62]. 
+
+to automate 47% of all jobs in the USA within 10-20 years             While we have not yet been able to research the long-term 
+
+[59]. The hardest jobs to automate are those which require            social and psychological consequences of this develop- 
+
+high levels of social intelligence (e.g. PR consultation), cre-       ment, several factors currently indicate that these trends 
+ativity (e.g. fashion design) and/or sensitive and flexible           are profoundly changing our social behavior [63], atten- 
+
+object manipulation (e.g. surgery). In these domains, the             tion spans, and childhood development [64].           These ef- 
+
+state of AI research is still far below the level of human ex-        fects may be amplified by the increasing use of virtual re- 
+
+perts.                                                                ality technology, which is already available to consumers. 
+
+                                                                      As these become increasingly detailed and realistic, they 
+
+Advantages and disadvantages to automation by com-                    may blur the user’s boundaries between reality and simu- 
+
+puters                                                                lation, thereby invading deeper into our everyday experi- 
+
+                                                                      ence. The consequences of more regular immersion in vir- 
+Those   who    will benefit   the  most   from   technological        tual realities—including experiences like body-transfer il- 
+
+progress are the people and nations that understand how               lusions, in which subjective awareness is temporarily pro- 
+
+to make use of new technological opportunities and the                jected into a virtual avatar [ 65]—should receive greater at- 
+
+corresponding flood of “big data” [60]. In particular, coun-          tention. 
+tries with well-trained computer specialists are expected                 While the entertainment industry does oer significant 
+
+to prosper in the face of technological progress.         More- 
+
+                                                                   5 
+
+----------------------- Page 10-----------------------
+
+Artificial Intelligence: Opportunities and Risks 
+
+opportunities for better education through personalized                tion of advantages from technological progress amongst 
+
+AI teaching and the gamification of learning material [66],            the whole population include unconditional basic income, 
+
+it  also  increases  the  risk  that  a  growing  proportion  of       and a negative income tax [71, 72] 
+
+young people will have trouble completing their education                  Some experts also warn of future scenarios in which 
+
+due to a pathological addiction to video games and/or the              the  projected  changes  are  even  more  drastic.        For  ex- 
+
+internet [67].                                                         ample,    the  economist     Robin   Hanson     expects   that  it 
+
+                                                                       will  be  possible  within  this  century  to  digitally  run  hu- 
+Utopias and dystopias                                                  man brain simulations—so-called whole brain emulations 
+
+Technological     progress   increases   societal   productivity       (WBEs)  [73]—in  virtual  reality.     WBEs  would  be  repro- 
+
+[68], in turn raising the average standard of living [69].  If         ducible, and could (assuming that suicient hardware is 
+
+more work is carried out by machines, this frees up time for           available) run many times faster than a biological brain, 
+
+leisure and self-development for humans—at least those                 consequently implying a huge increase in labor eiciency 
+
+in a position to profit from it. However, a drawback to in-            [74].  Hanson predicts that in such a case,  there would 
+
+creasing automation could be that the increases in pro-                be a “population explosion” amongst WBEs,  who could 
+
+ductivity go along with increasing social inequality so that           be used as enormously cost-eicient workers [75].           Han- 
+
+a rise in the mean standard of living doesn’t coincide with            son’s speculations are contested [61], and it should not be 
+
+a rise in the median quality of life. Experts like the MIT eco-        assumed that they sketch out the most likely future sce- 
+nomics professor Erik Brynjolfsson even worry that tech-               nario. Current research in this field, such as the Blue Brain 
+
+nological progress threatens to make the lives of a major-             Project at ETH Lausanne, is still very far from the first brain 
+
+ity of people worse [70].                                              simulations—never mind supplying them in real time (or 
+
+    In a competitive economy where AI technology has pro-              even faster) with inputs from a virtual reality. However, it is 
+
+gressed to the point where many jobs are done by ma-                   important to keep hardware developments in mind in rela- 
+
+chines, the income for automatable human work will fall                tion to the possibility of WBEs. If the scenario sketched out 
+
+[58].  Without  regulation,  the  incomes  of  many  people            by Hanson were to occur, this would be of great ethical rel- 
+
+could sink below subsistence level. Social inequality may              evance. For one thing, many humans replaced by complex 
+
+rise  sharply  if  economic  output  were  to  increase  more          simulations could become unemployed; for another, there 
+
+rapidly  than  the  wages  needed  to  eect  redistribution.          is the question whether the WBEs deployed would have 
+
+To counteract this development, McAfee and Brynjolfsson                phenomenal consciousness and subjective preferences— 
+
+suggest that limiting certain jobs to humans should be                 in other words, whether they would experience suering 
+
+subsidized.   Additional options for ensuring fair distribu-           as a result of their (potentially forced) labor. 
+
+   Recommendation 2 — Forward thinking:  As in the case of climate change, incentives should be set for researchers 
+
+   and decision makers to deal with the consequences of AI research; only then can the foundations of precautionary 
+
+   measures be laid. In particular, specialist conferences should be held on AI safety and on assessing the consequences 
+
+   of AI, expert commissions should be formed, and research projects funded.                                                            
+
+   Recommendation 3 — Education:            The subsidization of human work, an unconditional basic income, and a negative 
+
+   income tax have all been proposed as measures to cushion the negative social impacts of increased automation. Re- 
+
+   search should be conducted toward finding additional options, as well as identifying which set of measures has the 
+
+   maximum eect. Moreover, advantages and disadvantages must be systematically analyzed and discussed at a politi- 
+
+   cal level, and research grants should be established in order to answer any empirical questions that will inevitably arise 
+
+   as a result of this discussion.                                                                                                      
+
+   Recommendation 4 — Transparency over new measures:                  The subsidisation of human work, an unconditional basic 
+
+   income or a negative income tax have been proposed as measures to cushion the negative social impacts of increasing 
+
+   automation.  It is worth clarifying which further options exist and which set of measures has the maximum eect.  In 
+
+   addition, advantages and disadvantages must be systematically analysed and discussed at a political level. Research 
+
+   grants should be established to answer the empirical questions thrown up by this discussion.                                         
+
+                                                                    6 
+
+----------------------- Page 11-----------------------
+
+                                                                                 Artificial Intelligence: Opportunities and Risks 
+
+General intelligence and superintelligence 
+
+General intelligence measures an agent’s ability to achieve         more precisely how and when this could take place, and 
+
+goals in a wide range of environments [76, 77].  This kind          where the implications of such a scenario lie. 
+
+of intelligence can pose a (catastrophic) risk if the goals of 
+
+the agent do not align with our own.       If a general intelli-    Timeframes 
+
+gence reaches a superhuman level, it becomes a superin- 
+                                                                    Dierent  experts  in  the  area  of  AI  have  considered  the 
+telligence; that is, an algorithm superior to human intel- 
+                                                                    question of when the first machines will reach the level of 
+ligence in every way, including scientific creativity, “com- 
+                                                                    human intelligence. A survey of the hundred most success- 
+mon sense”, and social competence. Note that this defini- 
+                                                                    ful AI experts, measured according to a citation index, re- 
+tion leaves open the question of whether or not a superin- 
+                                                                    vealed that a majority consider it likely that human-level 
+telligence would have consciousness [78, 79]. 
+                                                                    AI will be developed within the first half of this century [4, 
+
+Comparative advantages of general artificial intelligence           p. 19]. The belief that humans will create a superintelli- 
+
+over humans                                                         gence by the end of this century, as long as technologi- 
+
+                                                                    cal progress experiences no large setbacks (as a result of 
+Humans are intelligent, two-legged “bio-robots” possess- 
+                                                                    global catastrophes), was also held by the majority of ex- 
+ing a conscious self-awareness, and were developed over 
+                                                                    perts [4, p. 20].  The variance among these estimates is 
+billions of years of evolution. These facts have been used 
+                                                                    high:  some experts are confident that there will be ma- 
+argue that the creation of artificial intelligence may not be 
+                                                                    chines with at least human levels of intelligence no later 
+so diicult, [80, 81, 82] seeing as AI research can be con- 
+                                                                    than 2040; (fewer) other experts think that this level will 
+ducted in a faster, more goal-oriented way than evolution 
+                                                                    never be reached. Even if one makes a somewhat conser- 
+(which only progresses through the slow accumulation of 
+                                                                    vative assumption, accounting for the tendency of human 
+successive generations). Alongside the fact that evolution 
+                                                                    experts to be overconfident in their estimates [87, 88], it 
+is a precondition for the feasibility of AIs, it naturally also 
+                                                                    would still be inappropriate to describe superintelligence 
+permits directed human research to borrow from biologi- 
+                                                                    as mere “science fiction” in the light of such widespread 
+cal design and thereby proceed considerably faster. 
+                                                                    confidence among relevant experts. 
+    Compared to the biological brain of a person, computer 
+
+hardware oers several advantages[4,  p. 60]:        the basic 
+                                                                    Goals of a general intelligence 
+computational elements (modern microprocessors) “fire” 
+millions of times faster than neurons;  signals are trans-          As a rational agent, an artificial intelligence strives towards 
+
+mitted millions of times faster; and a computer can store           just what its goals/goal function describes [ 89].  Whether 
+
+considerably more basic computational elements in total             an artificial intelligence will act ethically, that is, whether 
+
+(a single supercomputer can easily take up an entire fac-           it will have goals which are not in conflict with the interests 
+
+tory floor). A future digital intelligence would also have big      of humans and other sentient beings, is completely open: 
+
+advantages over the human brain in relation to soware              an artificial intelligence can in principle follow all possi- 
+
+components [4, pp. 60–61]: for instance, it is easy to both         ble goals [90].  It would be a mistaken anthropomorphi- 
+
+modify and multiply, meaning that potentially relevant in-          sation to think that every kind of superintelligence would 
+
+formation can be called upon at any time. In a few impor-           be interested in ethical questions like (typical) humans. 
+
+tant areas such as energy eiciency, resilience to purely           When we build an artificial intelligence, we also establish 
+
+physical damage, and graceful degradation [83], artificial          its goals, explicitly or implicitly. 
+
+hardware still lags behind the human brain. In particular,              These claims are sometimes criticized on the grounds 
+
+there is still no direct relation between thermodynamic ef-         that any attempt to direct the goal of an artificial intelli- 
+ficiency and complexity reduction at the level of informa-          gence according to human values would amount to “en- 
+
+tion processing [84, 85], but this may change as computer           slavement,” because our values would be forced upon the 
+
+hardware improves in coming decades.                                AI [91].  However, this criticism rests on a misunderstand- 
+    In view of these comparative advantages and the pre-            ing, as the expression “forced” suggests that a particular, 
+
+dicted rapid improvement of hardware [86] and soware,              “true” goal already exists, one the AI has before it is cre- 
+
+it seems probable that human intelligence will someday              ated.  This idea is logically absurd,  because there is no 
+
+be overtaken by that of machines. It is important to assess         pre-existing agent “receiving” the goal function in the first 
+
+                                                                 7 
+
+----------------------- Page 12-----------------------
+
+Artificial Intelligence: Opportunities and Risks 
+
+place, and thus no goal independent of the processes that            any probability that it would be unplugged, a superintelli- 
+
+have created an agent. The process that creates an intel-            gence could initially behave itself as the makers wished it 
+
+ligence determines inevitably its functioning and goals. If          to, until it had found out how to minimize the risk of an in- 
+
+we intend to build a superintelligence, then we, and noth-           voluntary shutdown [4, p. 117]. It could also be possible for 
+
+ing and nobody else,  are responsible for its goals.       Fur-      a superintelligence to circumvent the security systems of 
+
+thermore, it is also not the case that an AI must experi-            big banks and nuclear weapon arsenals using hitherto un- 
+
+ence any kind of harm through the goals that we inevitably           known gaps in security (so-calledzero day exploits), and in 
+
+give it. The possibility of being harmed in an ethically rele-       this way to blackmail the global population and force it to 
+
+vant sense requires consciousness, which we must ensure              cooperate. As mentioned earlier, in such a scenario a “re- 
+
+is not achieved by a superintelligence. Parents inevitably           turn to the initial situation” would be highly improbable. 
+
+form the values and goals of their children’s “biological in- 
+                                                                     What is at stake 
+telligence” in a very similar way, yet this does obviously 
+
+not imply that children are thereby “enslaved” in an un-             In the best-case scenario, a superintelligence could solve 
+
+ethical manner. Quite the opposite: we have the greatest             countless problems for humanity,  helping us overcome 
+ethical duty to impart fundamental ethical values to our             the greatest scientific,  ethical,  ecological and economic 
+
+children. The same is true for the AIs that we create.               challenges of the future. If, however, the goals of a super- 
+
+    The computer science professor Stuart Russell warns              intelligence were incompatible with the preferences of hu- 
+
+that the programming of ethical goals poses a great chal-            man beings or any other sentient beings, it would amount 
+
+lenge [3], both on a technical level (how would complex              to an unprecedented existential threat, potentially caus- 
+
+goals in a programming language be written so that no un-            ing more suering than any preceding event in the known 
+
+foreseen consequences resulted?) and on an ethical level             universe [98]. 
+
+(which goals anyhow?).       The first problem is called the 
+value-loading problem in the literature [92].                        Rational risk management 
+
+    Although the scope of possible goals of a superintel-            In decision situations where the stakes are very high, the 
+
+ligence is huge,  we can make some reliable statements               following principles are of crucial importance: 
+
+about the actions they would take. There is a range of in- 
+                                                                        1. Expensive precautions can be worth the cost even 
+strumentally rational subgoals that are useful for agents 
+                                                                           for low-probability risks, provided there is enough to 
+with highly varied terminal goals. These include goal- and 
+                                                                           win/lose thereby [89]. 
+self-preservation,  increasing  one’s  intelligence,  and  re- 
+source accumulation [93]. If the goal of an AI were altered,            2.  When there is little consensus in an area amongst ex- 
+
+this could be as negative (or even more so) to the achieve-                perts, epistemic modesty is advisable.  That is, one 
+
+                                                                           should not have too much confidence in the accu- 
+ment of its original goal as the destruction of the AI itself. 
+Increased intelligence is essentially just an ability to reach             racy of one’s own opinion either way. 
+
+goals in a wider range of environments, and this opens               The risks of AI research are of a global nature.      If AI re- 
+
+up the possibility of a so-called intelligence explosion, in         searchers  fail  to  transfer  ethical  goals  to  a  superintelli- 
+
+which an AI rapidly undergoes an enormous increase in its            gence in the first attempt, there quite possibly won’t be 
+
+intelligence through recursive self-improvement [94, 95]             a second chance.  It is absolutely tenable to estimate the 
+
+(a concept first described by I.J. Good [96] which has since         long-term risks of AI research as even greater than those 
+
+been formalized in concrete algorithms [97].) Resource ac-           of climate change. In comparison to climate change, how- 
+
+cumulation and the discovery of new technologies give the            ever, AI research is receiving very little attention. With this 
+
+AI more power, which in turn serves better goal achieve-             paper, we want to emphasize that it is therefore even more 
+ment. If the goal function of a newly developed superintel-          valuable to invest considerable resources into AI safety re- 
+
+ligence ascribed no value to the welfare of sentient beings,         search. 
+
+it would cause reckless death and suering wherever this                If the scenarios discussed here have a non-infinitesimal 
+
+was useful for its (interim) goal achievement.                       chance of actually happening, then artificial intelligence 
+
+    One could tend towards the assumption that a super-              and the opportunities and risks associated with it should 
+
+intelligence  poses  no  danger  because  it  is  only  a  com-      be a global priority. The probability of a good outcome of 
+
+puter, which one could literally unplug. By definition, how-         AI research can be maximized through a number of mea- 
+
+ever, a superintelligence would not be stupid; if there were         sures, including the following: If the scenarios discussed 
+
+                                                                 8 
+
+----------------------- Page 13-----------------------
+
+                                                                                 Artificial Intelligence: Opportunities and Risks 
+
+here have (a perhaps small, but) more than an infinites-             should be a global priority. The probability of a good out- 
+
+imal chance of actually happening, then artificial intelli-          come of AI research can be maximised through the follow- 
+
+gence and the opportunities and risks associated with it             ing measures, amongst others: 
+
+   Recommendation 5 — Information:  An eective improvement in the safety of artificial intelligence research begins 
+
+   with awareness on the part of experts working on AI, investors, and decision-makers.  Information on the risks asso- 
+
+   ciated with AI progress must, therefore, be made accessible and understandable to a wide audience.  Organizations 
+
+   supporting these concerns include the Future of Humanity Institute (FHI) at the University of Oxford, the Machine In- 
+
+   telligence Research Institute (MIRI) in Berkeley, the Future of Life Institute (FLI) in Boston, as well as the Foundational 
+
+   Research Institute (FRI).                                                                                                       
+
+   Recommendation 6 — AI safety:         Recent years have witnessed an impressive rise in investment into AI research [86], 
+
+   but research into AI safety has been comparatively slow.         The only organization currently dedicated the theoretical 
+
+   and technical problems of AI safety as its top priority is the aforementioned MIRI. Grantors should encourage research 
+
+   projects to document the relevance of their work to AI safety, as well as the precautions taken within the research itself. 
+
+   At the same time, high-risk AI research should not be banned, as this would likely result in a rapid and extremely risky 
+
+   relocation of research to countries with lower safety standards.                                                                
+
+   Recommendation 7 — Global cooperation and coordination:              Economic and military incentives create a competitive 
+
+   environment in which a dangerous AI arms race will almost certainly arise.  In the process, the safety of AI research 
+
+   will be reduced in favor of more rapid progress and reduced cost. Stronger international cooperation can counter this 
+
+   dynamic. If international coordination succeeds, then a “race to bottom” in safety standards (through the relocation of 
+
+   scientific and industrial AI research) would also be avoided. 
+
+                                                                                                                                   
+
+Artificial consciousness 
+
+Humans  and  many  non-human  animals  have  what  is                      “real”, thus forcing the system to self-identify with 
+
+known as phenomenal consciousness—that is, they expe-                      the content of its conscious self-model) [101, 102]. 
+
+rience themselves to be a human or a non-human animal 
+with a subjective,  first-person point of view [99].      They       Two related questions have to be distinguished actually: 
+
+have sensory impressions, a (rudimentary or pronounced)              firstly, whether machines could ever develop conscious- 
+
+sense of self,  experiences of pain upon bodily damage,              ness and the capacity for suering at all; and secondly, if 
+
+and the capacity to feel psychological suering or joy (see          the answer to the first question is yes, which types of ma- 
+
+                                                                     chines (will) have consciousness. 
+for example the studies of depression in mice [100]).        In 
+                                                                        In addition to the above, two related questions have 
+short, they are sentient beings. Consequently, they can be 
+harmed in a sense that is relevant to their own interests            to be distinguished: Firstly, whether machines could tech- 
+
+and perspective. In the context of AI, this leads to the fol-        nically develop consciousness and the capacity for suer- 
+
+lowing question: Is it possible for the functional system of         ing at all; Secondly, if the answer to the first question is 
+
+a machine to also experience a potentially painful “inner            yes, which types of machines (will) have consciousness. 
+
+life”? The philosopher and cognitive scientist Thomas Met-           These two questions are being researched by philosophers 
+
+zinger oers four criteria for the concept of suering, all of       and AI experts alike.  A glance at the state of research re- 
+
+                                                                     veals that the first question is easier to answer than the 
+which would apply to machines as well as animals: 
+                                                                     second. There is currently substantial, but not total, con- 
+    1. Consciousness.                                                sensus amongst experts that machines could in principle 
+
+   2.  A phenomenal self-model.                                      have consciousness, and that it is at least possible in neu- 
+
+                                                                     romorphic computers [103,  104,  105,  106,  107,  108,  109]. 
+   3.  The ability to register negative value (that is, violated 
+                                                                     Such computers have hardware with the same functional 
+       subjective preferences) within the self-model. 
+                                                                     organization as a biological brain [110].    The question of 
+   4.  Transparency (that is, perceptions feel irrevocably           identifying which types of machines (besides neuromor- 
+
+                                                                 9 
+
+----------------------- Page 14-----------------------
+
+Artificial Intelligence: Opportunities and Risks 
+
+phic computers) could have consciousness, however, is far          sive circumstances.  Metzinger warns that conscious ma- 
+
+more diicult to answer.  The scientific consensus in this         chines could be misused for research purposes. Moreover, 
+
+area is less clear [111]. For instance, it is disputed whether     as “second class citizens”, they may lack legal rights and be 
+
+pure simulations (such as the simulated brain of the Blue          exploited as dispensable experimental tools, all of which 
+
+Brain Project) could have consciousness.  While some ex-           could be negatively reflected at the level of the machines’ 
+
+perts are confident that this is the case [109, 105], others       inner experience [106]. This prospect is particularly worry- 
+
+disagree [111, 112].                                               ing because it is conceivable that AIs will be made in such 
+
+    In view of this uncertainty among experts, it seems rea-       huge numbers [4, 75] that in a worst-case scenario, there 
+
+sonable to take a cautious position: According to current          could be an astronomical number of victims, outnumber- 
+
+knowledge, it is at least conceivable that many suiciently        ing any known catastrophe in the past. 
+
+complex computers,  including non-neuromorphic ones,                  These dystopian scenarios point toward an important 
+
+could be sentient.                                                 implication of technological progress:     Even if we make 
+
+    These considerations have far-reaching ethical conse-          only “minor” ethical mistakes (e.g.    by erroneously clas- 
+
+quences.   If machines could have consciousness, then it           sifying certain computers as unconscious or morally in- 
+would be ethically unconscionable to exploit them as a             significant), then by virtue of historically unprecedented 
+
+workforce, and to use them for risky jobs such as defusing         technological power, this could result in equally unprece- 
+mines or handling dangerous substances [4, p. 167]. If suf-        dented catastrophes.  If the total number of sentient be- 
+
+ficiently complex AIs will have consciousness and subjec-          ings rises drastically, we must ensure that our ethical val- 
+
+tive preferences with some probability, then similar ethi-         ues  and  empirical  estimates  improve  proportionally;    a 
+
+cal and legal safety precautions to those used for humans          mere marginal improvement in either parameter will be 
+
+and non-human animals will have to be met [113]. If, say,          insuicient to meet the greatly increased responsibility. 
+
+the virtual brain of the Blue Brain Project was to gain con-       Only by acknowledging the uncertain nature of possible 
+
+sciousness, then it would be highly ethically problematic          machine consciousness can we begin to take appropri- 
+
+to use it (and any potential copies or “clones”) for system-       ate cautionary measures in AI research, and thus hope to 
+
+atic research of e.g.  depression by placing it in depres-         avoid any of the potential catastrophes described above. 
+
+   Recommendation 8 — Research:        In order to make ethical decisions, it is important to have an understanding of which 
+
+   natural and artificial systems have the capacity for producing consciousness, and in particular for experiencing suer- 
+
+   ing.  Given the apparent level of uncertainty and disagreement within the field of machine consciousness, there is a 
+
+   pressing need to promote, fund, and coordinate relevant interdisciplinary research projects (comprising philosophy, 
+
+   neuroscience, and computer science).                                                                                         
+
+   Recommendation 9 — Regulation:         It is already standard practice for ethics commissions to regulate experiments on 
+
+   living test subjects [114, 115]. In light of the possibility that neuromorphic computers and simulated beings could also 
+
+   develop consciousness, it is vital that research on these, too, is carried out under the strict supervision of ethics commis- 
+
+   sions. Furthermore, the (unexpected) creation of sentient artificial life should be avoided or delayed wherever possible, 
+
+   as the AIs in question could—once created—be rapidly duplicated on a vast scale. In the absence of pre-existing legal 
+
+   representation and political interest in artificial sentience, this proliferation would likely continue unchecked.           
+
+Conclusion 
+
+Already today, we are witnessing the spread of novel AI            of a negative overall development. 
+
+technologies with surprising potential. The AI technology             The more progress is made in the field of AI technol- 
+
+currently behind driverless cars, Watson-assisted medical          ogy, the more pressing a rational, far-sighted approach to 
+
+diagnosing, and US military drones will gradually become           the associated challenges becomes. Because political and 
+
+available for general use in the foreseeable future.     It is     legal progress tends to lag behind technological develop- 
+
+crucial that carefully constructed legal frameworks are in         ment, there is an especially large amount of responsibility 
+
+place before this happens, so as to realize the potential of       resting on the individual researchers and developers who 
+
+these technologies in ways that safely minimize any risks          directly take part in any progress being made. 
+
+                                                               10 
+
+----------------------- Page 15-----------------------
+
+                                                                                    Artificial Intelligence: Opportunities and Risks 
+
+    Unfortunately, however, there are strong economic in-              to broaden the field of AI safety. This way, it can be recog- 
+
+centives for the development of new technologies to take               nized not only among a few experts but in widespread pub- 
+
+place as fast as possible without “wasting” time on expen-             lic discourse as a great (perhaps the greatest) challenge of 
+
+sive risk analyses. These unfavorable conditions increase              our age. 
+
+the risk that we gradually lose our grip on the control of                As a final addition to the concrete recommendations 
+
+AI technology and its use.      This should be prevented on            given above, we would like to conclude by pleading that AI 
+
+all possible levels, including politics, the research itself,          risks and opportunities be recognized as a global priority— 
+
+and in general by anyone whose work is relevant to the is-             akin  to  climate  change,    or  the  prevention  of  military 
+
+sue.  A fundamental prerequisite to directing AI develop-              conflicts—as soon as possible. 
+
+ment along the most advantageous tracks possible will be 
+
+Acknowledgements 
+
+We thank all those who helped us in the research or writing of this position paper. Worthy of particular mention are: Kaspar 
+
+Etter and Massimo Mannino, for their suggestions on the structure of the paper; professor Oliver Bendel, for suggestions 
+
+to the chapter “Advantages and risks of current AIs”; and professor Jürgen Schmidhuber, both for his inputs to the chap- 
+
+ters “General intelligence and superintelligence” and “Artificial consciousness” and for his valuable contributions to the 
+
+current state of knowledge in various fields of AI research. 
+
+Supporters 
+
+The central points of this position paper are supported by: 
+
+     • Prof. Dr. Fred Hamker, Professor of Artificial Intelligence, Technical University of Chemnitz 
+
+     • Prof. Dr. Dirk Helbing, Professor of Computational Social Science, ETH Zürich 
+
+     • Prof. Dr. Malte Helmert, Professor of Artificial Intelligence, University of Basel 
+
+     • Prof. Dr. Manfred Hild, Professor of Digital Systems, Beuth Technical College, Berlin 
+
+     • Prof. Dr. Dr. Eric Hilgendorf, Director of Research in Robotic Law, University of Würzburg 
+
+     • Prof. Dr. Marius Klo, Professor of Machine Learning, Humboldt University, Berlin 
+
+     • Prof. Dr. Jana Koehler, Professor of Information Science, Luzern College 
+
+     • Prof. Dr. Stefan Kopp, Professor of Social Cognitive Systems, University of Bielefeld 
+
+     • Prof. Dr. Dr. Franz Josef Radermacher, Professor of Databases and Artificial Intelligence, University of Ulm 
+
+                                                                   11 
+
+----------------------- Page 16-----------------------
+
+Bibliography 
+
+       [1]  Koomey, J. G., Berard, S., Sanchez, M., & Wong, H. (2011). Implications of Historical Trends in the Electrical Eiciency 
+
+            of Computing. IEEE Annals of the History of Computing, 33 (3), 46–54. 
+
+      [2]   Brockman, J. (2015). What to Think About Machines That Think: Today’s Leading Thinkers on the Age of Machine 
+
+            Intelligence. Harper Perennial. 
+
+      [3]   Russell, S. (2015). Will They Make Us Better People? (http://edge.org/response-detail/26157) 
+
+      [4]   Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press. 
+
+      [5]   BBC. (2015a). Stephen Hawking Warns Artificial Intelligence Could End Mankind. (http://www.bbc.com/news/ 
+
+            technology-30290540) 
+
+      [6]   Harris, S. (2015). Can We Avoid a Digital Apocalypse? (https://edge.org/response-detail/26177) 
+
+      [7]   The Independent. (2014). Stephen Hawking: ‘Transcendence Looks at the Implications of Artificial Intelligence — 
+
+            But Are We Taking AI Seriously Enough?’ (http://www.independent.co.uk/news/science/stephen- hawking- 
+
+            transcendence-looks-at-the-implications-of-artificial-intelligence--but-are-we-taking-ai-seriously-enough- 
+
+            9313474.html) 
+
+      [8]   The Guardian. (2014). Elon Musk Donates $10m to Keep Artificial Intelligence Good for Humanity. (http://www. 
+
+            theguardian.com/technology/2015/jan/16/elon-musk-donates-10m-to-artificial-intelligence-research) 
+
+      [9]   SBS. (2013). Artificial Irrelevance: The Robots Are Coming. (http://www.sbs.com.au/news/article/2012/07/18/ 
+
+            artificial-irrelevance-robots-are-coming) 
+
+     [10]   BBC. (2015b). Microso’s Bill Gates Insists AI Is a Threat. (http://www.bbc.com/news/31047780) 
+
+      [11]  Silver, N. (2012). The Signal and the Noise: Why So Many Predictions Fail – But Some Don’t. Penguin. 
+
+     [12]   PCWorld. (2011). IBM Watson Vanquishes Human Jeopardy Foes. (http://www.pcworld.com/article/219893/ibm_ 
+
+            watson_vanquishes_human_jeopardy_foes.html) 
+
+     [13]   Bowling, M., Burch, N., Johanson, M., & Tammelin, O. (2015). Heads-up Limit Hold’em Poker Is Solved. Science, 
+
+            347 (6218), 145–149. 
+
+     [14]   Ciresan,  D.  C.,  Giusti,  A.,  Gambardella,  L.  M.,  &  Schmidhuber,  J.  (2013).  Mitosis  Detection  in  Breast  Can- 
+
+            cer  Histology  Images  Using  Deep  Neural  Networks.  MICCAI  2013.  (http  :  /  /  people  .  idsia  .  ch  /  ~juergen  / 
+
+            deeplearningwinsMICCAIgrandchallenge.html) 
+
+     [15]   Ciresan, D., Meier, U., & Schmidhuber, J. (2012). Multi-Column Deep Neural Networks for Image Classification. Com- 
+
+            puter Vision and Pattern Recognition 2012, 3642–3649. 
+
+     [16]   Tesauro, G. (1994). TD-Gammon, a Self-Teaching Backgammon Program, Achieves Master-Level Play. Neural Com- 
+
+            putation, 6(2), 215–219. 
+
+     [17]   Koutník, J., Cuccu, G., Schmidhuber, J., & Gomez, F. (2013). Evolving Large-Scale Neural Networks for Vision-Based 
+
+            Reinforcement Learning. In Proceedings of the 15th Annual Conference on Genetic and Evolutionary Computation 
+
+            (pp. 1061–1068). ACM. 
+
+     [18]   Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A. A., Veness, J., Bellemare, M. G., ... Ostrovski, G. et al. (2015). Human- 
+
+            Level Control Through Deep Reinforcement Learning. Nature, 518 (7540), 529–533. 
+
+     [19]   Slavin, K. (2012). How Algorithms Shape Our World. (http://ed.ted.com/lessons/kevin-slavin-how-algorithms- 
+
+            shape-our-world) 
+
+----------------------- Page 17-----------------------
+
+                                                                                     Artificial Intelligence: Opportunities and Risks 
+
+[20]   Tagesanzeiger. (2008). Computer-Panne legt US-Flugverkehr lahm. (http : / / www . tagesanzeiger. ch / ausland / 
+
+       amerika/ComputerPanne-legt-USFlugverkehr-lahm/story/13800972) 
+
+ [21]  Page, L., Brin, S., Motwani, R., & Winograd, T. (1999). The PageRank Citation Ranking: Bringing Order to the Web. 
+
+       (http://ilpubs.stanford.edu:8090/422/) 
+
+[22]   Wired. (2010). Algorithms Take Control of Wall Street. (http://www.wired.com/2010/12/_ai_flashtrading/all/) 
+
+[23]   Lin, T. C. (2012). The New Investor. UCLA L. Rev. 60, 678–735. 
+
+[24]   Taleb, N. N. (2010). The Black Swan: The Impact of the Highly Improbable Fragility. Random House. 
+
+[25]   Lauricella, T. & McKay, P. (2010). Dow Takes a Harrowing 1,010.14-point Trip. Wall Street Journal (May 7, 2010). 
+
+[26]   Securities, U., Commission, E., & the Commodity Futures Trading Commission. (2010). Findings Regarding the Mar- 
+
+       ket Events of May 6, 2010. Report of the Stas of the CFTC and SEC to the Joint Advisory Committee on Emerging 
+
+       Regulatory Issues. 
+
+[27]   Spiegel. (2015). Denkende Waen: Künstliche-Intelligenz-Forscher Warnen vor Künstlicher Intelligenz. (http : / / 
+
+       www.spiegel.de/netzwelt/netzpolitik/elon- musk- und- stephen- hawking- warnen- vor- autonomen- waen- 
+
+       a-1045615.html) 
+
+[28]   Bendel, O. (2013). Towards Machine Ethics. In Technology Assessment and Policy Areas of Great Transitions (pp. 343– 
+
+       347). Proceedings from the PACITA 2013 Conference in Prague. 
+
+[29]   Goodall, N. J. (2014). Machine Ethics and Automated Vehicles. In Road Vehicle Automation: Lecture Notes in Mobility 
+
+       (pp. 93–102). Springer International Publishing. 
+
+[30]   Bostrom, N. & Yudkowsky, E. (2013). The Ethics of Artificial Intelligence. In Cambridge Handbook of Artificial Intelli- 
+
+       gence. Cambridge University Press. 
+
+ [31]  Dickmanns, E. D., Behringer, R., Dickmanns, D., Hildebrandt, T., Maurer, M., Thomanek, F., & Schiehlen, J. (1994). 
+
+       The Seeing Passenger Car ‘VaMoRs-P’. In International Symposium on Intelligent Vehicles 94 (pp. 68–73). 
+
+[32]   Dickmanns, E. (2011). Evening Keynote: Dynamic Vision as Key Element for AGI. 4th Conference on Artificial General 
+       Intelligence, Mountain View, CA. (https://www.youtube.com/watch?v=YZ6nPhUG2i0) 
+
+[33]   Thrun, S. (2011). Google’s Driverless Car. (http://www.ted.com/talks/sebastian_thrun_google_s_driverless_car) 
+
+[34]   Forbes. (2012). Nevada Passes Regulations for Driverless Cars. (http://www.forbes.com/sites/alexknapp/2012/02/ 
+
+       17/nevada-passes-regulations-for-driverless-cars/) 
+
+[35]   Organization, W. H. et al. (2013). WHO Global Status Report on Road Safety 2013: Supporting a Decade of Action. World 
+
+       Health Organization. 
+
+[36]   Simonite, T. (2013). Oline Handwriting Recognition with Multidimensional Recurrent Neural Networks. MIT Tech- 
+
+       nology Review, Oct, 25. 
+
+[37]   CNBC. (2014). Self-Driving Cars Safer Than Those Driven by Humans: Bob Lutz. (http : / / www . cnbc . com / id / 
+
+       101981455) 
+
+[38]   Svenson, O. (1981). Are We All Less Risky and More Skillful Than Our Fellow Drivers? Acta Psychologica , 9(6), 143– 
+
+       148. 
+
+[39]   Weinstein, N. D. (1980). Unrealistic Optimism about Future Life Events. Journal of Personality and Social Psychology, 
+
+       39 (5), 806. 
+
+[40]   Langer, E. J. (1975). The Illusion of Control. Journal of Personality and Social Psychology, 32 (2), 311. 
+
+ [41]  Von Hippel, W. & Trivers, R. (2011). The Evolution and Psychology of Self-Deception. Behavioral and Brain Sciences, 
+
+       34 (1), 1–56. 
+
+[42]   Trivers, R. (2011). The Folly of Fools: The Logic of Deceit and Self-Deception in Human Life. Basic Books. 
+
+[43]   Berner, E. S. & Graber, M. L. (2008). Overconfidence as a Cause of Diagnostic Error in Medicine. The American Journal 
+
+       of Medicine, 121(5), S2–S23. 
+
+                                                                    13 
+
+----------------------- Page 18-----------------------
+
+Artificial Intelligence: Opportunities and Risks 
+
+ [44]    Kohn, L. T., Corrigan, J. M., Donaldson, M. S. et al. (2000). To Err Is Human: Building a Safer Health System. National 
+
+        Academies Press. 
+
+ [45]   The New York Times. (2010). What Is IBM’s Watson? (http://www.nytimes.com/2010/06/20/magazine/20Computer- 
+
+        t.html) 
+
+ [46]   Wired. (2013). IBM’s Watson Is Better at Diagnosing Cancer Than Human Doctors. (http://www.wired.co.uk/news/ 
+
+         archive/2013-02/11/ibm-watson-medical-doctor) 
+
+ [47]    Forbes. (2013). IBM’s Watson Gets Its First Piece Of Business In Healthcare. (http : / / www . forbes . com / sites / 
+
+         bruceupbin/2013/02/08/ibms-watson-gets-its-first-piece-of-business-in-healthcare/) 
+
+ [48]    Dawes, R. M., Faust, D., & Meehl, P. E. (1989). Clinical Versus Actuarial Judgment. Science, 243 (4899), 1668–1674. 
+
+ [49]    Grove, W. M., Zald, D. H., Lebow, B. S., Snitz, B. E., & Nelson, C. (2000). Clinical Versus Mechanical Prediction: A 
+
+         Meta-Analysis. Psychological Assessment, 12(1), 19. 
+
+ [50]   West, R. F. & Stanovich, K. E. (1997). The Domain Specificity and Generality of Overconfidence: Individual Dier- 
+
+        ences in Performance Estimation Bias. Psychonomic Bulletin & Review, 4(3), 387–392. 
+
+  [51]  Tversky, A. & Kahneman, D. (1974). Judgment Under Uncertainty: Heuristics and Biases. Science, 185(4157), 1124– 
+
+         1131. 
+
+  [52]   Pohl, R. (Ed.). (2004). Cognitive Illusions: A Handbook on Fallacies and Biases in Thinking, Judgement and Memory. 
+
+         Psychology Press. 
+
+  [53]   Brosnan, M. J. (2002). Technophobia: The Psychological Impact of Information Technology. Routledge. 
+
+ [54]   Yudkowsky, E. (2008). Artificial Intelligence as a Positive and Negative Factor in Global Risk. Global Catastrophic 
+
+        Risks, 1, 303. 
+
+  [55]   Bostrom, N. (2002). Existential Risks. Journal of Evolution and Technology, 9(1). 
+
+ [56]   Smith, A. & Anderson, J. (2014). AI, Robotics, and the Future of Jobs. Pew Research Center. 
+
+  [57]   Cowen, T. (2013a). Average Is Over: Powering America Beyond the Age of the Great Stagnation . Penguin. 
+
+ [58]    Brynjolfsson, E. & McAfee, A. (2014). The Second Machine Age: Work, Progress, and Prosperity in a Time of Brilliant 
+
+         Technologies. WW Norton & Company. 
+
+ [59]    Frey, C. B. & Osborne, M. A. (2013). The Future of Employment: How Susceptible Are Jobs to Computerisation? 
+
+         Oxford Martin Programme on Technology and Employment. (https://web.archive.org/web/20150109185039/http: 
+
+        //www.oxfordmartin.ox.ac.uk/downloads/academic/The_Future_of_Employment.pdf) 
+
+ [60]    Helbing, D. (2015). Thinking Ahead — Essays on Big Data, Digital Revolution, and Participatory Market Society. 
+
+        Springer. 
+
+  [61]   Cowen, T. (2013b). EconTalk Episode with Tyler Cowen: Tyler Cowen on Inequality, the Future, and Average is Over. 
+
+         (http://www.econtalk.org/archives/2013/09/tyler_cowen_on.html) 
+
+ [62]    Griiths, M., Kuss, D., & King, D. (2012). Video Game Addiction: Past, Present and Future. Current Psychiatry Reviews, 
+
+        8(4), 308–318. 
+
+ [63]   Srivastava, L. (2010). Mobile Phones and the Evolution of Social Behaviour. Behavior & Information Technology, 
+
+        24 (2), 111–129. 
+
+ [64]    Prensky, M. (2001). Do They Really Think Dierently? On the Horizon, 47 (2). 
+
+ [65]    Metzinger, T. (2015a). Virtuelle Verkörperung in Robotern. SPEKTRUM, 2, 48–55. 
+
+ [66]    Kapp, K. M. (2012). The Gamification of Learning and Instruction: Game-Based Methods and Strategies for Training 
+
+        and Education. Pfeier. 
+
+ [67]    Bavelier, D., Green, S., Hyun Han, D., Renshaw, P., Merzenich, M., & Gentile, D. (2011). Viewpoint: Brains on Video 
+
+         Games. Nature Reviews Neuroscience, 12, 763–768. 
+
+                                                                   14 
+
+----------------------- Page 19-----------------------
+
+                                                                                       Artificial Intelligence: Opportunities and Risks 
+
+[68]    Fagerberg, J. (2000). Technological Progress, Structural Change and Productivity Growth: A Comparative Study. 
+
+       Structural Change and Economic Dynamics, 11(4), 393–411. 
+
+[69]    Galor, O. & Weil, D. N. (1999). From Malthusian Stagnation to Modern Growth.American Economic Review , 150–154. 
+
+[70]    Brynjolfsson, E. (2014). EconTalk Episode with Erik Brynjolfsson: Brynjolfsson on the Second Machine Age. (http: 
+
+       //www.econtalk.org/archives/2014/02/brynjolfsson_on.html) 
+
+ [71]   Hughes, J. J. (2014). Are Technological Unemployment and a Basic Income Guarantee Inevitable or Desirable?Jour- 
+
+       nal of Evolution and Technology, 24 (1), 1–4. 
+
+[72]    Krugman, P. (2013). Sympathy for the Luddites. New York Times, 13. (http://www.nytimes.com/2013/06/14/opinion/ 
+
+        krugman-sympathy-for-the-luddites.html) 
+
+[73]    Bostrom, N. & Sandberg, A. (2008). Whole Brain Emulation: A Roadmap. Oxford: Future of Humanity Institute. 
+
+[74]    Hanson, R. (2012). Extraordinary Society of Emulated Minds. (http://library.fora.tv/2012/10/14/Robin_Hanson_ 
+
+        Extraordinary_Society_of_Emulated_Minds) 
+
+[75]    Hanson, R. (1994). If Uploads Come First. Extropy, 6(2), 10–15. 
+
+[76]    Legg, S. & Hutter, M. (2005). A Universal Measure of Intelligence for Artificial Agents. In International Joint Confer- 
+
+        ence on Artificial Intelligence (Vol. 19, p. 1509). Lawrence Erlbaum Associates ltd. 
+
+[77]    Hutter, M. (2007). Universal Algorithmic Intelligence: A Mathematical Top-Down Approach. InArtificial General In- 
+
+        telligence (Vol. 6, 2, pp. 227–290). Springer. 
+
+[78]    Bostrom, N. (1998). How Long Before Superintelligence? International Journal of Future Studies, 2. 
+
+[79]    Schmidhuber, J. (2012). Philosophers & Futurists, Catch Up! Response to The Singularity. Journal of Consciousness 
+
+       Studies, 19(1-2), 173–182. 
+
+[80]    Moravec, H. (1998). When Will Computer Hardware Match the Human Brain. Journal of Evolution and Technology, 
+
+        1(1), 10. 
+
+ [81]   Moravec, H. (2000). Robot: Mere Machine to Transcendent Mind. Oxford University Press. 
+
+[82]    Shulman, C. & Bostrom, N. (2012). How Hard Is Artificial Intelligence? Evolutionary Arguments and Selection Eects. 
+
+       Journal of Consciousness Studies, 19(7-8), 103–130. 
+
+[83]    Sengupta, B. & Stemmler, M. (2014). Power Consumption During Neuronal Computation. Proceedings of the IEEE, 
+
+        102(5), 738–750. 
+
+[84]    Friston, K. (2010). The Free-Energy Principle: A Unified Brain Theory? Nature Reviews Neuroscience, 11, 127–138. 
+
+[85]    Sengupta, B., Stemmler, M., & Friston, K. (2013). Information and Eiciency in the Nervous System — A Synthesis. 
+
+        PLoS Comput Biol, 9(7). 
+
+[86]    Eliasmith, C. (2015). On the Eve of Artificial Minds. In T. Metzinger & J. M. Windt (Eds.), Open mind. MIND Group. 
+
+        (http://open-mind.net/papers/@@chapters?nr=12) 
+
+[87]   Armstrong, S., Sotala, K., & ÓhÉigeartaigh, S. S. (2014). The Errors, Insights and Lessons of Famous AI Predictions 
+
+        — And What They Mean for the Future. Journal of Experimental & Theoretical Artificial Intelligence, 26 (3), 317–342. 
+
+[88]    Brenner, L. A., Koehler, D. J., Liberman, V., & Tversky, A. (1996). Overconfidence in Probability and Frequency Judg- 
+
+        ments: A Critical Examination. Organizational Behavior and Human Decision Processes, 65(3), 212–219. 
+
+[89]    Peterson, M. (2009).An Introduction to Decision Theory . Cambridge University Press. 
+
+[90]   Armstrong, S. (2013). General Purpose Intelligence: Arguing the Orthogonality Thesis. Analysis and Metaphysics , 
+
+        (12), 68–84. 
+
+ [91]   Noë, A. (2015). The Ethics Of The ‘Singularity’. (http://www.npr.org/sections/13.7/2015/01/23/379322864/the- 
+
+        ethics-of-the-singularity) 
+
+[92]    Bostrom, N. (2012). The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents. 
+
+        Minds and Machines, 22 (2), 71–85. 
+
+                                                                     15 
+
+----------------------- Page 20-----------------------
+
+Artificial Intelligence: Opportunities and Risks 
+
+ [93]   Omohundro, S. M. (2008). The Basic AI Drives. In Proceedings of the First AGI Conference, 171, Frontiers in Artificial 
+
+        Intelligence and Applications (Vol. 171, pp. 483–492). 
+
+ [94]   Solomono, R. (1985). The Time Scale of Artificial Intelligence: Reflections on Social Eects. Human Systems Man- 
+
+        agement, 5, 149–153. 
+
+ [95]   Chalmers, D. (2010). The Singularity: A Philosophical Analysis. Journal of Consciousness Studies, 17(9-10), 7–65. 
+
+ [96]   Good, I. J. (1965). Speculations Concerning the First Ultraintelligent Machine. InAdvances in Computers (pp. 31–88). 
+
+        Academic Press. 
+
+ [97]   Schmidhuber, J. (2006). Gödel Machines: Fully Self-Referential Optimal Universal Self-Improvers. In Artificial Gen- 
+
+        eral Intelligence (pp. 119–226). 
+
+ [98]   Tomasik, B. (2011). Risks of Astronomical Future Suering. Foundational Research Institute. (http://foundational- 
+
+        research.org/publications/risks-of-astronomical-future-suering/) 
+
+ [99]   Nagel, T. (1974). What Is it Like to Be a Bat? The Philosophical Review, 435–450. 
+
+[100]   Durgam, R. (2001). Rodent Models of Depression: Learned Helplessness Using a Triadic Design in Tats. Curr Protoc 
+
+        Neurosci, (8). 
+
+ [101]  Metzinger, T. (2012). Two Principles for Robot Ethics. In H. E & G. J-P (Eds.), Robotik und Gesetzgebung (pp. 263–302). 
+
+        NOMOS. (http://www.blogs.uni-mainz.de/fb05philosophie/files/2013/04/Metzinger_RG_2013_penultimate.pdf) 
+
+[102]   Metzinger, T. (2015b). Empirische Perspektiven aus Sicht der Selbstmodell-Theorie der Subjektivität: Eine Kurzdarstel- 
+
+        lung mit Beispielen. Selbstverlag. (http://www.amazon.de/Empirische-Perspektiven-Sicht-Selbstmodell-Theorie- 
+
+        Subjektivitat-ebook/dp/B01674W53W) 
+
+[103]   Moravec, H. P. (1988). Mind Children: The Future of Robot and Human Intelligence. Harvard University Press. 
+
+[104]   Chalmers, D. J. (1995). Absent Qualia, Fading Qualia, Dancing Qualia. Conscious Experience, 309–328. 
+
+[105]   Chalmers, D. J. (1996). The Conscious Mind: In Search of a Fundamental Theory. Oxford University Press. 
+
+[106]   Metzinger, T. (2010). The Ego Tunnel: The Science of the Mind and the Myth of the Self (First Trade Paper Edition). New 
+
+        York: Basic Books. 
+
+[107]   Metzinger, T. (2015c). What If They Need to Suer? (https://edge.org/response-detail/26091) 
+
+[108]   Dennett, D. C. (1993). Consciousness Explained. Penguin UK. 
+
+[109]   Bostrom, N. (2003). Are We Living in a Computer Simulation? The Philosophical Quarterly, 53 (211), 243–255. 
+
+ [110]  Hasler, J. & Marr, B. (2013). Finding a Roadmap to Achieve Large Neuromorphic Hardware Systems. Frontiers in 
+
+        Neuroscience, 7(118). 
+
+ [111]  Koch,  C.  (2014).  What  it  Will  Take  for  Computers  to  Be  Conscious,  MIT  Technology  Review.  (http : / / www . 
+
+        technologyreview.com/news/531146/what-it-will-take-for-computers-to-be-conscious/) 
+
+ [112]  Tononi, G. (2015). Integrated Information Theory. Scholarpedia, 10(1), 4164. (http://www.scholarpedia.org/article/ 
+
+        Integrated_Information_Theory) 
+
+ [113]  Singer, P. (1988). Comment on Frey’s ‘Moral Standing, the Value of Lives, and Speciesism’. Between the Species: A 
+
+        Journal of Ethics, 4, 202–203. 
+
+ [114]  Swissethics, Verein anerkannter Ethikkommissionen der Schweiz. (n.d.). (http://www.swissethics.ch/) 
+
+ [115]  Senatskommission für Tierexperimentelle Forschung. (2004). Tierversuche in der Forschung. (http://www.dfg. 
+
+        de / download / pdf / dfg _ im _ profil / geschaesstelle / publikationen / dfg _ tierversuche _ 0300304 . pdf, pub- 
+
+        lisher=Deutsche Forschungsgemeinscha) 
+
+                                                               16 
+
+----------------------- Page 21-----------------------
+
+
+----------------------- Page 22-----------------------
+
+www.foundational-research.org 
+
+     www.ea-stiung.org 
+
+            © 2016 

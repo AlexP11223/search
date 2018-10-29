@@ -1,0 +1,72 @@
+[
+  {
+    "file": "machine-learning-report.txt",
+    "url": "https://royalsociety.org/~/media/policy/projects/machine-learning/publications/machine-learning-report.pdf",
+    "title": "Machine learning - Royal Society",
+    "query": "machine learning filetype:pdf",
+    "keywords": ["machine learning", "artificial intelligence", "report", "advances", "society", "concerns", "new wave", "applications", "standards", "data"]
+  },
+  {
+    "file": "cacm12.txt",
+    "url": "https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf",
+    "title": "A Few Useful Things to Know about Machine Learning",
+    "query": "machine learning filetype:pdf",
+    "keywords": ["machine learning", "classification", "issues", "common questions", "generalization", "representation", "evaluation", "optimization", "examples", "data", "overfitting", "dimesionality", "feature engineering"]
+  },
+  {
+    "file": "picasso-minicourse.txt",
+    "url": "https://www.cs.princeton.edu/~schapire/talks/picasso-minicourse.pdf",
+    "title": "Machine Learning Algorithms for Classification - cs.Princeton",
+    "query": "machine learning filetype:pdf",
+    "keywords": ["machine learning", "classification", "examples", "applications", "decision tree", "boosting", "support-vector machines", "data", "features", "experients"]
+  },
+  {
+    "file": "1709.08339",
+    "url": "https://arxiv.org/pdf/1709.08339",
+    "title": "Machine Learning for Networking - arXiv",
+    "query": "machine learning filetype:pdf",
+    "keywords": ["machine learning", "networking", "workflow", "advances", "opportunities", "traffic", "classification", "prediction", "scheduling", "datasets"]
+  },
+  {
+    "file": "machine-learning-primer-108796.txt",
+    "url": "https://s3.amazonaws.com/baypath/files/resources/machine-learning-primer-108796.pdf",
+    "title": "Machine Learning Primer - Amazon S3",
+    "query": "machine learning filetype:pdf",
+    "keywords": ["machine learning", "primer", "basics", "problems", "applications", "best practices", "opportunities", "checklist", "supervised learning", "semi-supervised learning", "unsupervised learning", "reinforcement learning"]
+  },
+  {
+    "file": "ai-opportunities-and-risks.txt",
+    "url": "https://ea-foundation.org/files/ai-opportunities-and-risks.pdf",
+    "title": "Artificial Intelligence - Effective Altruism Foundation",
+    "query": "artificial intelligence filetype:pdf",
+    "keywords": ["artificial intelligence", "policy", "opportunities", "improvements", "risks", "damage", "ethical challenges", "economy", "accidents", "arms race", "hacking", "consciousness"]
+  },
+  {
+    "file": "the-new-wave-of-artificial-intelligence---labs-whitepaper.txt",
+    "url": "https://www.evry.com/globalassets/insight/bank2020/the-new-wave-of-artificial-intelligence---labs-whitepaper.pdf",
+    "title": "The New Wave of Artificial Intelligence - EVRY",
+    "query": "artificial intelligence filetype:pdf",
+    "keywords": ["artificial intelligence", "new wave", "difference", "applications", "cost", "data", "algorithms", "emergence", "economy", "banking"]
+  },
+  {
+    "file": "AI NatSec - final.txt",
+    "url": "https://www.belfercenter.org/sites/default/files/files/publication/AI%20NatSec%20-%20final.pdf",
+    "title": "Artificial Intelligence and National Security",
+    "query": "artificial intelligence filetype:pdf",
+    "keywords": ["artificial intelligence", "national security", "military", "united states", "technology", "policy", "advances", "transformation", "goals", "risks"]
+  },
+  {
+    "file": "slides-98-opsawg-network-artificial-intelligence-01.txt",
+    "url": "https://datatracker.ietf.org/meeting/98/materials/slides-98-opsawg-network-artificial-intelligence-01",
+    "title": "Network Artificial Intelligence - IETF Datatracker",
+    "query": "artificial intelligence filetype:pdf",
+    "keywords": ["machine learning", "artificial intelligence", "networking", "controller", "use-case", "traffic", "monitoring", "analytics", "telemetry", "fault detection"]
+  },
+  {
+    "file": "ege_ai_statement_2018",
+    "url": "https://ec.europa.eu/research/ege/pdf/ege_ai_statement_2018.pdf",
+    "title": "Artificial Intelligence, Robotics and ‘Autonomous’ Systems",
+    "query": "artificial intelligence filetype:pdf",
+    "keywords": ["artificial intelligence", "robotics", "autonomous systems", "advances", "moral reflections", "society", "ethical challenges", "legal framework", "european union", "responsibility", "safety", "security", "privacy", "risks"]
+  }
+]

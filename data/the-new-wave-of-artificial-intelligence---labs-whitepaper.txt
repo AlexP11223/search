@@ -1,0 +1,1035 @@
+﻿----------------------- Page 1-----------------------
+
+WHITEPAPER  
+
+The New Wave of   
+Artificial Intelligence  
+
+----------------------- Page 2-----------------------
+
+CONTENT  
+
+ 1. INTRODUCTION                 2. WHY A.I. IS                 3. WHAT IS                      4. THE EMERGING                 5. A.I. IN BANKING  
+
+                                 DIFFERENT THIS TIME             INTELLIGENCE                   A.I. ECONOMY   
+    What is Artificial                                                                                                            Wealth  
+   Intelligence?                   The decreasing                  Emergence                     The Machine                   Management for  
+                                                                                                                                  the masses   
+   The only thing you             cost of computing                                               Intelligence  
+   need to know                    power                            What Emergence                business landscape              Customer support/ 
+                                                                   means for A.I.   
+   about A.I.                      The availability of                                            A glimpse at some             help desk   
+
+                                   data                                                            innovative                     Advanced  
+                                                                                                   companies                      Analytics  
+                                    Better algorithms   
+                                                                                                  Summary                         Fraud Detection  
+                                    Conclusion  
+
+                                                                                                                                   Underwriting  
+
+                                                                                                                                  Steps forward  
+
+                LABS       PAGE 2  
+
+----------------------- Page 3-----------------------
+
+                          Foreword  
+
+ In this research paper we will explore the current  
+
+ wave of A.I. technologies and A.I. businesses. We  
+
+ will start off with our main hypothesis of why A.I. is  
+
+    different this time. This is followed by a quick  
+
+  survey of the emerging A.I. economy where we  
+
+will look at examples of companies leveraging this  
+
+ new technology to disrupt existing industries and  
+
+     create new ones. This will hopefully give the  
+
+ reader some feeling of what kind of applications  
+
+                    A.I. is used for today.  
+
+                                                                                PAGE 3          LABS  
+
+  
+
+----------------------- Page 4-----------------------
+
+1. INTRODUCTION  
+
+               INTRODUCTION  
+    1  
+                  
+
+We are living in the midst of a surge of interest and  
+
+research into Artificial Intelligence (hereby A.I.). It can  
+
+seem like every week there is a new breakthrough in the  
+
+field and a new record set in some task previously done  
+
+by humans. Not too long ago, A.I. seemed a distant  
+
+dream for especially interested researchers. Today it is all  
+
+around us. We carry it in our pockets, it's in our cars and  
+                                                                                     No easy definition of what is AI  
+in many of the web services we use throughout the day.  
+                                                                                        and what is just normal IT.  
+As this technology matures, every business must ask itself  
+
+the central question: how will this disrupt my industry?               between the two concepts. For the purpose of this  
+
+Throughout this research paper, we will investigate the                paper, it is best to avoid the technical definitions used  
+
+possible implications of the rise of A.I. on the banking               by academics in the field, and instead think of AI  
+
+industry.                                                              technology as the sort of technology you would use to  
+
+                                                                       do tasks that require some level of intelligence to  
+What is Artificial Intelligence?                                       accomplish. With the added feature that AI systems  
+
+If we ask Wikipedia; Artificial Intelligence (AI) is "the              often are the kind of systems deployed in domains  
+
+intelligence exhibited by machines or software. It is also             where there is a lot of uncertainty. The simplest example  
+
+the name of the academic field of study which studies                  of this is a chess computer vs. a calculator. Both chess  
+
+how to create computers and computer software that                     and arithmetic requires some level of intelligence, but  
+
+are capable of intelligent behavior". While this seems like            whereas in chess there is a lot of uncertainty with regards  
+
+a reasonable definition, a lot of people struggle with                 to the opponents next move, the routine calculations  
+
+identifying the difference between AI and ordinary                     performed by a calculator contains no uncertainty.  
+
+software. This is a fair point, as there is no clear line  
+
+              LABS      PAGE 4  
+
+----------------------- Page 5-----------------------
+
+The only thing you need to know about A.I.  
+
+This is not the first period of massive public interest in A.I.  
+
+In fact, A.I.'s long history of being “The Next Big Thing”  
+
+has led the current top researchers in the field to publicly  
+
+downplay their findings, in order to avoid the hype  
+
+getting out of hand. Ever since the start of the field, the  
+
+long term goal of A.I. research has been what is called  
+                                                                                              A.I has followed a classic boom  
+Strong A.I., a computerized brain capable of doing  
+                                                                                                  and bust cycle ever since.  
+every intelligence task that a human can perform.  
+Roughly every decade since the 1950's, promises have                           been made about the impending arrival of Strong A.I.,  
+
+                                                                               and every time these promises were broken, all the  
+
+                                                                               funding for A.I. research dried up in what the industry  
+
+                                                                               calls “A.I. Winters”.  
+
+                                                                                 
+
+                                                                               This brings us to one of the main points of this research  
+
+                                                                               paper. We are now at a point where the disruptive force  
+
+                                                                               of A.I. technology no longer hinges on whether or not  
+
+                                                                               Strong A.I. is ever achieved. The only thing you as a  
+
+                                                                               business person need to know about A.I. is this: the  
+
+                                                                               technology has now matured to a level where it,  
+
+                                                                               regardless of future progress in the field, is set to disrupt  
+
+                                                                               almost any technology based industry. The reasons for  
+
+                       Figure 1: A chess board.                                this will be explained in the following sections.  
+
+ Source: http://pixshark.com/chess.htm                                                                              PAGE 5         LABS  
+
+----------------------- Page 6-----------------------
+
+2. WHY A.I. IS DIFFERENT THIS TIME   
+
+                WHY A.I. IS DIFFERENT THIS TIME   
+    2  
+
+It is a saying in finance that the most expensive four  
+
+words in the English language is “This time it's different”.  
+
+The saying is meant to imprint caution in the mind of  
+
+people looking to invest in hyped assets with a history of  
+
+disappointment. Given the history of A.I., one might do  
+
+well to keep this in mind. However, is it possible to find  
+
+any justification for why it is, in fact, different this time?  
+                                                                                         Google, Facebook, Baidu etc.  
+Kevin Kelly, the founding executive editor of Wired, lists  
+                                                                                        are hiring all the A.I. experts they  
+the following three reasons.  
+                                                                                              can get their hands on  
+  
+The decreasing cost of computing power                                     calculations that used to take up to several weeks, now  
+
+Thinking, for all practical purposes, is computation. And                  take less then a day, and the time is shrinking. Building  
+
+in order to simulate a system that is even remotely                        intelligent applications would simply not be possible  
+
+intelligent, a great number of computations are needed.                    without the increase in cheap, available computing  
+
+Moore's law, which says that the number of transistors on                  power that we have been fortunate to witness the last  
+
+integrated circuits double roughly every two years, has                    decades.  
+
+provided growing computational capacity for the last                        
+
+five decades. But this is not enough. Luckily, it was                       
+
+discovered during the last decade that GPUs, the chips                      
+
+used for generating computer graphics in video games                        
+
+etc., were eminently suited to run the sort of massive                      
+
+parallel computations needed for building A.I.                              
+
+architecture. In practical terms, this has meant that                       
+
+               LABS      PAGE 6  
+
+----------------------- Page 7-----------------------
+
+The availability of data  
+
+It is no coincidence that the recent intense interest in A.I.  
+
+from the tech industry comes right after Big Data  
+
+became a household word. The by far biggest investors  
+
+in A.I. technology are Facebook, Google, Yahoo, Baidu  
+
+and Microsoft. They have hired almost all the leading  
+
+researchers in the field and setup their own research labs  
+                                                                                                 Several breakthroughs in  
+
+                                                                                            algorithms for machine learning  
+
+                                                                                                  during the last decade.  
+
+                                                                               which is what these companies are looking for. There is  
+
+                                                                               an interesting symbiosis between A.I. research and data:  
+
+                                                                               Just like the brain of a child, an A.I. system needs huge  
+
+                                                                               amounts of information in order to learn. And companies  
+
+                                                                               who sit on huge amounts of information usually wants to  
+
+                                                                               minimize the human effort of analyzing this data. This  
+
+                                                                               relationship is bound to fuel the development of A.I.  
+
+                                                                               going forward. A nice example of this is IBM's Watson  
+
+internally. The common denominator for these                                   engine. Watson is a distributed cognitive system,  
+
+companies is that they sit on truly massive amounts of                         meaning that it is spread out in the cloud, collecting  
+
+data that they need to analyze. A.I. bears the promise of                      information every time it's being used, everywhere. This  
+
+an automatic analysis and management of this data,                             means that the more people use Watson, the better the  
+
+                                                                               system becomes at it's job.  
+
+                                                                                                                   PAGE 7         LABS  
+
+   
+
+----------------------- Page 8-----------------------
+
+2. WHY A.I. IS DIFFERENT THIS TIME   
+
+Better algorithms  
+
+A new type of algorithms lies at the heart of this new A.I.  
+
+wave and it's safe to say that without these, the data  
+
+and computing power would amount to nothing. It  
+
+might come as a surprise that it is all based on  
+
+technology from the 50's, called Artificial Neural  
+
+Networks (ANN), which is an attempt to model the  
+                                                                                                           Moore’s law has not yet failed,  
+network of nerve cells in a human brain on a computer.  
+                                                                                                              and innovations have been  
+Loosely speaking, it is a interconnected web of artificial  
+                                                                                                               made in utilizing graphics  
+neurons that either fire or not based on what the input to  
+                                                                                                                          processors.  
+the neuron is. A key part of building these neural  
+
+networks, is to be able to train them to do the correct  
+                                                                                             
+thing when they see data. Even though this technology                                        
+
+is as old as the field of A.I. itself, it was not until recently                             
+
+(2007) that we had the algorithms to train truly big                                         
+
+networks that could solve more interesting problems. The                                     
+
+study of these algorithms has now spawned its own sub-                                       
+
+field of A.I. known as Deep Learning, its name                                               
+
+referencing the number of neuron layers in the neural                                        
+
+networks.  
+                                                                                             
+  
+                                                                                             
+  
+                                                                                             
+  
+                                                                                             
+
+                  LABS         PAGE 8  
+
+                                                                                                                                                                               
+
+----------------------- Page 9-----------------------
+
+                                                                                    Conclusion  
+
+                                                                                    The combination of the three factors outlined above  
+
+                                                                                    have laid the ground for a wealth of consumer and  
+
+                                                                                    business facing applications, most of which we have not  
+
+                                                                                    yet seen. There exists a big gap between where  
+
+                                                                                    businesses could be and where they are in terms of  
+
+                                                                                    building internal competency with, and implementing,  
+
+                                                                                    this technology. It is precisely because of this gap that  
+
+                                                                                    we maintain the hypothesis that the disruptive force of  
+
+                                                                                    A.I. is almost completely independent of the future  
+
+                                                                                    progression of the field. It has already arrived.  
+
+                        Figure 2: Moore's law.  
+
+  
+
+  
+
+  
+
+Source: The Economist                                                                                                      PAGE 9          LABS  
+
+----------------------- Page 10-----------------------
+
+3. WHAT IS INTELLIGENCE   
+
+                 WHAT IS INTELLIGENCE  
+    3  
+
+The field of A.I. can seem quite daunting for non- 
+
+specialists and part of the reason for this is because the  
+
+way we think about intelligence has changed during the  
+
+last couple of decades. This has had the result that it can  
+
+be very hard for non-experts to understand what this  
+
+technology can be used for. As will be explained in this  
+
+section, it's all about changing how one thinks about  
+                                                                                                 General A.I. would have a  
+intelligence.   
+                                                                                               human or superhuman level of  
+  
+                                                                                                           intelligence  
+In the beginning of the field of A.I.'s existence, one  
+
+thought that the way to approach it was to instill a                              
+
+computer with logical 'rules' that would result in rational                       
+
+behavior, and then populate this computer with facts                              
+
+about the world in a big “Knowledge Table”. This                                  
+
+approach was later shown to be doomed to fail.                                    
+
+Manually typing in facts about the world, and hoping                              
+
+that strict rules would help the computer understand the                          
+
+relations between these facts, becomes exponentially                              
+
+cumbersome as you add more facts.                                                 
+
+                                                                                  
+
+                                                                                  
+
+                                                                                  
+
+                                                                                  
+
+                LABS      PAGE 10  
+
+----------------------- Page 11-----------------------
+
+                                                                                 intelligent behavior is in reality a finely tuned network of  
+
+                                                                                 very simple parts. This view of intelligence as the  
+
+                                                                                 behavior of simple parts in a complex system has some  
+
+                                                                                 interesting consequences, because it has led to scientists  
+
+                                                                                 finding what fits this definition of intelligence in surprising  
+
+                                                                                 places. For example, a single termite is not especially  
+
+                                                                                 smart. One might even go so far as to call it stupid. But a  
+               A specialist A.I. can drive a car or  
+                                                                                 termite colony exhibits intelligent behavior in the sense  
+               play chess, not very good outside  
+                                                                                 that it builds complex structures to live in, which even  
+                             it’s domain.  
+                                                                                 has built-in fungus farms for food supply. This type of  
+
+Emergence                                                                        behavior can be seen many places in the insect world:  
+
+The fact is that we do not really understand what                                the aggregate behavior of “simple” insects is surprisingly  
+
+intelligence is or where it comes from. This goes for not                        complex and adaptive to changes in the colony's  
+
+only the artificial kind, but also our innate intelligence.                      environment. The effectiveness of the bugs' methods has  
+
+One reason for this problem is the many different                                not been lost on the people in computer science. There  
+
+definitions of intelligence. However, there have been                            is now an entire class of algorithms known as Swarm  
+
+some developments 'lately'. Science has throughout the                           Intelligence algorithms that attempt to solve problems in  
+
+last decades increasingly adopted the view of                                    this decentralized, self-organizing way.  
+
+intelligence as an emergent property of some complex                               
+
+systems. That means that the aggregate behavior of                                 
+
+very simple parts of certain complex systems lead to                               
+
+intelligent behavior. The part of you or the people you                            
+
+know that is responsible for what can be called                                    
+
+                                                                                                                      PAGE 11         LABS  
+
+   
+
+----------------------- Page 12-----------------------
+
+3. WHAT IS INTELLIGENCE   
+
+                                                                      Each node in a network like the one in Figure 3 is simply  
+
+                                                                      a function that either outputs a 1 or a 0 based on its  
+
+                                                                      input from other neurons. But with enough of these  
+
+                                                                      neurons stacked in layers one after another, and with  
+
+                                                                      enough training data, a network somewhat like this can  
+
+                                                                      be taught to recognize faces and other objects in  
+
+                                                                      pictures. One of the more impressive examples of this is a  
+
+                                                                      system by Google (Figure 4) that can automatically  
+           Figure 3: Example architecture of a   
+                                                                      caption images. It does this by using one neural network  
+                 Artificial Neural Network  
+                                                                      to attempt to recognize all the important objects in the  
+
+What Emergence means for A.I.                                         picture, then it uses a second neural network to  
+
+                                                                      generate sentences about the relationship between  
+This whole new wave of artificial intelligence research  
+                                                                      these objects. What these examples show is that the  
+and technology really hinges on this “emergence-view”  
+                                                                      correct set of algorithms, with the correct training can  
+of intelligence being a useful way to analyze intelligent  
+                                                                      learn to distinguish signal from noise in a way that is  
+systems. The reason for this is that if intelligence is not an  
+                                                                      meaningful to humans. The fact that the input data in  
+emergent phenomenon, then humans will have to build  
+                                                                      these examples are pictures is irrelevant. This begs the  
+intelligent systems from scratch. That is simply not  
+                                                                      question of what we will be able to build with systems  
+feasible. So this is why most modern A.I. systems are built  
+                                                                      whose sensory input consists entirely of say bank  
+with the purpose of self-learning through emergent  
+                                                                      customer data, transaction data including fraud cases,  
+complex behavior of simple parts. The most common  
+                                                                      stock prices and so on. These are the questions that  
+example of this is Artificial Neural Networks (see Figure 3  
+                                                                      some of the companies in the next section attempt to  
+on next page for an illustration).  
+                                                                      answer.  
+
+              LABS     PAGE 12  
+
+----------------------- Page 13-----------------------
+
+                                                                       Figure 4: The automatic captioning system recognizes  
+
+                                                                         objects in photographs and then tries to choose a  
+
+                                                                                    sentence that explains the scene.  
+
+Source: http://googleresearch.blogspot.co.uk/2014/11/a-picture-is-worth-thousand-coherent.html                      PAGE 13         LABS  
+
+----------------------- Page 14-----------------------
+
+4. THE EMERGING A.I. ECONOMY  
+
+                THE EMERGING A.I. ECONOMY  
+    4  
+
+Talk of artificial intelligence often creates images of  
+
+HAL9000 from 2001: A Space Odyssey or Skynet from the  
+
+Terminator movies. This is only natural, as Hollywood for a  
+
+long time has been one of the main providers of futuristic  
+
+visions to the public. However, to get a more realistic  
+
+picture of how this technology will affect the world  
+
+around us, it probably makes more sense to study the  
+                                                                                             “Whoever wins AI, wins the  
+business models of the companies trying to build this  
+                                                                                           internet” – Andrew Ng, Chief  
+future right now. In the following sections, we will have a  
+                                                                                               Data Scientist at Baidu.  
+look at the technology landscape of the Machine  
+
+Intelligence industry, and look at companies that are                       named Shivon Zilis spent three months building just such  
+
+using A.I. to deliver services in a way that might surprise                 a technology landscape for what she calls the machine  
+
+you.                                                                        intelligence sector (Shown in a too small picture in Figure  
+
+                                                                            5). She built a list of over 2 500 A.I. or machine learning  
+The Machine Intelligence business                                           related companies and start-ups and narrowed it down  
+landscape                                                                   to what you see in Figure 5. The landscape is sliced  
+
+A good way to get a feel for an up-and-coming                               nicely into the following segments, which we will go  
+
+technology industry is to build what is called a                            through in turn: Core Technologies, Rethinking Enterprise,  
+
+technology landscape. A technology landscape is                             Rethinking Industries, Rethinking Humans/HCI and  
+
+nothing more than a big picture with a lot of company                       Supporting Technologies.  
+
+logos on it, where the companies are segmented by the                         
+
+problem they are trying to address or value they want to                      
+
+offer. In 2014, a Venture Capitalist at Bloomberg Beta                        
+
+               LABS      PAGE 14  
+
+                                                                                                                                                  
+
+----------------------- Page 15-----------------------
+
+                                                                                      CORE TECHNOLOGIES  
+
+    RETHINKING ENTERPRISE  
+
+                                             RETHINKING INDUSTRIES  
+
+  RETHINKING HUMANS / HCI                                                         SUPPORTING TECHNOLOGIES  
+
+                         Figure 5: The Machine Intelligence Landscape, by Shivon Zilis.  
+
+Source: www.shivonzilis.com/machineintelligence                                           PAGE 15      LABS  
+
+----------------------- Page 16-----------------------
+
+4. THE EMERGING A.I. ECONOMY  
+
+       CORE TECHNOLOGIES                                               Knewton, which aims to deliver personalized education  
+
+The companies in the Core Technologies segment are                     to every student, Lex Machina, which offers an analytics  
+
+the ones working directly with advancing the A.I. and                  engine that lawyers can use to search for similar cases,  
+
+Machine Learning fields. They range from technology                    relevant laws etc., and many others.  
+
+providers to other A.I. driven companies, to companies  
+providing advanced analytics products directly to the                     RETHINKING HUMANS/ HCI  
+
+end user.                                                              This is the wild card category containing the more sci-fi  
+
+                                                                       like companies. Here you will find companies attempting  
+
+     RETHINKING ENTERPRISES                                            to make computers understand human emotions and  
+
+This segment contains the companies attempting to                      designers of various augmented reality products.  
+
+leverage machine intelligence in order to build smarter  
+
+enterprise solutions for companies in general. Examples                 SUPPORTING TECHNOLOGIES  
+
+of this range from advanced churn prediction software,                 The companies in this segment offer products or services  
+
+that can alert sale teams that a customer is growing                   that enable the companies in the other segments to do  
+
+dissatisfied (Preakt), to smart fraud detection, that                  their thing. This ranges from chip makers, to providers of  
+
+analyzes fraud in real-time using over 5 000 signals (Sift             user friendly software for web-scraping and other  
+
+Science).                                                              information gathering. Among the more exciting and  
+
+                                                                       ambitious projects in this segment, we have HP and IBM's  
+
+      RETHINKING INDUSTRIES                                            attempts to rethink the way we do computing by  
+
+The Rethinking Industries segment is composed of                       designing what is called neuromorphic  (brainlike)  
+
+companies using A.I. to change the way things are done                 hardware.  
+
+in existing industries. It is here you will find many of the             
+
+more “sexy” A.I. start-ups. Among them, we have                          
+
+              LABS     PAGE 16  
+
+----------------------- Page 17-----------------------
+
+A glimpse at some innovative companies  
+
+In order to get a better feeling for how A.I. is driving new  
+
+types of businesses, we will take a more thorough look at  
+
+some of the companies from the landscape.  
+
+                                                                                                 These three companies are  
+Deepmind, Numenta, Vicarious  
+                                                                                              chasing “Strong AI”. No focus on  
+For the purpose of this research paper, these companies  
+                                                                                             short term rewards or commercial  
+are so similar that we might as well bundle them  
+                                                                                                application. Biggest disruptive  
+together. All three companies are trying to solve the  
+                                                                                                             potential.  
+Strong A.I. problem, and all three are backed by titans  
+
+of the Tech industry: Deepmind is backed by Google,                             internet”. These companies mark an interesting shift in  
+
+Vicarious by Mark Zuckerberg and Elon Musk, and                                 the development of core A.I. technology. The  
+
+Numenta by Palm Computing founder Jeff Hawkins.                                 technology used to drive the current generation of A.I.  
+
+While all three companies have examples of                                      applications was usually conceived at academic  
+
+applications for their products, they more resemble                             institutions and then later adopted by corporates. Now,  
+
+private sector research labs than conventional                                  we have a situation where the tech giants have placed  
+
+companies.                                                                      a large number of the industry's experts in their internal  
+
+                                                                                laboratories, which might lead to less openness about  
+
+But these companies are not interesting because of their                        technical breakthroughs going forward.  
+
+products' immediate applications, but because they  
+                                                                                  
+represent the front line in an ever-intensifying arms race  
+                                                                                  
+in Silicon Valley. As put by Andrew Ng of Stanford and  
+                                                                                  
+Chinese search giant Baidu, “Whoever wins A.I., wins the  
+                                                                                  
+
+                                                                                                                    PAGE 17         LABS  
+
+----------------------- Page 18-----------------------
+
+4. THE EMERGING A.I. ECONOMY  
+
+VIV - The Global Brain  
+VIV is the brainchild of the original team behind Apple's  
+
+A.I. assistant Siri. Siri is one of the first examples of an A.I.  
+
+helper that the the public actually has appreciated  
+
+(remember Microsoft's Office Assistant paperclip?). She  
+
+could search the web for you, send texts, set alarms and  
+
+even had a sense of humor. The creators however, felt  
+that the project had stopped short of what was possible.                                 The Grid is an example of a  
+
+So right after the death of Steve Jobs, they left Apple to                                 specialized “servant AI”.   
+
+set up VIV Labs, where they are now hatching their next                              Designed to do work humans find  
+
+creation. Their ambition for VIV is to create a truly                                                boring.  
+
+generalist A.I. assistant for all platforms. They have                    intelligence instead of using e.g. web browsers when  
+
+designed it around three principles: It will be taught by                 carrying out tasks like buying airplane tickets. As the  
+
+the world, it will know more than it is taught and it will                technology becomes less visible and more human-like in  
+
+learn something new every day. That means that if it                      its capabilities, it becomes easier to use for everyone.  
+
+helps you solving a problem after some trial and error,                    
+then that solution becomes available for every other                     The Grid  
+user that encounters the same problem afterwards.                        The founder of The Grid, Dan Tocchini, used to work as a  
+
+Having VIV help you find a suitable wine for lasagna on                  website designer. After a couple of years in the industry,  
+
+your way to your friend's house is one of their more                      he began to find the tasks menial and repetitive. Every  
+
+impressive examples. VIV is a good example of the                         time a business is changing something about itself,  
+
+companies that believe that a lot of people will in the                   offering a new product, entering new markets etc. that  
+
+near future interface with some form of machine                           change needs to be reflected in the website. This usually  
+
+              LABS      PAGE 18  
+
+----------------------- Page 19-----------------------
+
+means that a person needs to do the painstaking work                          The Grid represents the type of companies that want to  
+
+of changing the design of the website to reflect the                          alleviate the load of performing certain types of work by  
+
+change in the business. Enter The Grid. The Grid is                           using A.I. instead of outsourcing. For example, instead of  
+
+designed to be a A.I. driven website builder. Users                           having a call center in an offshore location, a company  
+
+                                                                              can have a call center at home manned by artificial  
+
+                                                                              intelligence agents. This is a phenomenon that is bound  
+
+                                                                              to become more and more prevalent as the range of  
+
+                                                                              tasks that A.I. agents can perform continues to grow.  
+
+                                                                                
+                                                                              Summary  
+
+                                                                              The companies shown in this small selection illustrate the  
+
+                                                                              breadth of this emerging industry. And that breadth is  
+
+                                                                              one of the key things one needs to understand about  
+
+                                                                              the ambitions of this field. The vision for the people  
+
+                                                                              behind VIV and a large part of the A.I. crowd is that this  
+upload raw content in the form of text, pictures and                          technology will be like a utility in the future. Much like we  
+
+other media. Then they specify the purpose of the                             now use electricity or water to solve problems, the hope  
+
+website, be it business, social or some other type. After                     is that intelligent computation will be a general resource  
+
+that, The Grid's engine takes care of the rest and                            in the same way. This way of looking at intelligent  
+
+compiles your input into a working website designed to                        computation really broadens the scope of what one  
+
+achieve what the web-site's owner wants, e.g.                                 can imagine using this technology for.  
+
+promoting higher sales or new customers.   
+
+  
+
+                                                                                                                  PAGE 19        LABS  
+
+----------------------- Page 20-----------------------
+
+5. A.I. IN BANKING  
+
+                A.I. IN BANKING  
+    5  
+
+The purpose of the preceding sections is to get the                           Perhaps even more interesting is the arrival of  
+
+reader thinking about how the technologies surveyed                           Wealthfront and Betterment. By automating large parts  
+
+could be tweaked and applied to banking. One                                  of the wealth management process, they are able to  
+
+problem of technology with broad applications is that it                      offer personalized, tax optimized investments to clients  
+
+can be hard to know where to start applying it. Another                       who have far less in investable assets than what would  
+
+question is the maturity of the technology across                             usually qualify for professional wealth management.  
+
+application areas.                                                            Wealthfront have an minimum account size of $ 5000  
+
+                                                                              and Betterment has no minimum account size. Both  
+Wealth Management for the masses                                              companies' approach is based on asking the user  
+
+One of the banking areas that have seen a lot of                              questions about their financial goals, financial status  
+
+investment in machine intelligence is wealth                                  etc., and from this deduce the optimal asset mix for the  
+
+management. Both incumbents and newcomers are                                 client using analytics.  
+
+realizing that the digital shift that is happening in banking                   
+
+will affect this sector. UBS, a Swiss heavy-weight in the  
+
+wealth management business, recently acquired a  
+
+seven year old startup called Sqreem after it held an  
+
+innovation competition that Sqreem won. Sqreem's forté  
+is automatic analysis of large amounts of unstructured                                           New entrants are using  
+
+                                                                                             automation to cut the costs of  
+data with the purpose of detecting “typical” behavioral  
+patterns. UBS's hope is that this engine will can offer                                      offering wealth management  
+
+                                                                                                          services.  
+insights in how to best service their high-net-worth clients.  
+                                                                                
+  
+                                                                                
+  
+
+               LABS       PAGE 20  
+
+----------------------- Page 21-----------------------
+
+Customer support/help desk                                                    advanced analytics more user friendly, in essence  
+
+This isn't really a banking specific area, but as it applies                  turning business analysts into potential data scientists  
+
+to banking I will include it here. Everyone hates being                       capable of performing sophisticated querying against  
+
+“next in line” on some phone call when all they want is                       available datasets. This is the explicit goal of Sensai,  
+
+just to have their online bank work etc. As speech                            another machine intelligence startup. They offer a  
+
+processing and natural language processing                                    platform that will make it easier to collate data from  
+
+technologies mature, we are closing in on the day                             different sources. As Banking is one of the worlds most  
+
+where computers can handle most customer service                              data-intensive industries, and becoming ever more so,  
+
+questions for us. This would mean an end to the waiting                       the capability to actually analyze all this data will be of  
+
+in line, and happier customers.                                               growing importance.  
+
+                                                                                
+  
+Advanced Analytics                                                              
+
+Another area which has seen a lot of investment are is                          
+
+the use of machine intelligence for advanced analytics.  
+
+An example of this is the young company Kensho, which  
+
+just received $ 15 million in funding from Goldman Sachs.  
+
+Kensho has built a natural language search engine                                           A new generation of intelligent  
+
+capable of answering questions like “What happens to                                         analytics companies address  
+
+stocks when inflation falls below 2 % and GDP growth is                                    infrastructure concerns raised by  
+
+flat” or “Which stocks to buy when the oil price falls”.                                         the arrival of Big Data.  
+
+While this does not seem like an application of  
+immediate importance for retail banking it's a good                             
+
+example of how companies are trying to make                                     
+
+                                                                                                                 PAGE 21        LABS  
+
+----------------------- Page 22-----------------------
+
+5. A.I. IN BANKING  
+
+Fraud Detection  
+
+Most industries operating on the world wide web are  
+
+susceptible to fraudulent users, and banking is no                               Feedzai and SiftScience are  
+
+exception. As technological infrastructure grows more                           helping their customers catch  
+
+complex, so do the demands on those protecting                                  over 89 % of fraud cases while  
+
+companies and people from fraud. Marc Goodman,                                  reviewing only 1 % of customer  
+
+author of “Future Crimes” explains in his book that                                         orders.   
+
+criminals are often the first to exploit emergent  
+technologies and turn their complexity against their              Underwriting  
+
+users. This has led to an arms race between online                The newcomers in the underwriting business, like Zest  
+
+security providers and fraudsters involved in everything          Finance, really cut to the heart of the business of  
+
+from email scams to credit card fraud. As security                banking. Using as much data as they can get their  
+
+providers improve, the criminals change their ways. This          hands on, in combination with advanced machine  
+
+moving target calls for platforms that can learn to               learning algorithms, they are able to more effectively  
+
+identify changing patterns of fraud, which is what                price personal credit risk. Their business model is based  
+
+companies like Feedzai and SiftScience is trying to do. By        on helping lenders in different credit segments by  
+
+tracking thousands of signals in real time and sharing            assessing their clients for them, and according to them  
+
+information across their network of clients they are able         their Big Data model is a 40 % improvement over the  
+
+to help their customers catch over 89 % of fraud cases            best-in-class industry score. One of Zest finance's  
+
+while reviewing only 1 % of customer orders. While                philosophies is “All data is credit data”. That means that  
+
+SiftScience doesn't seem to have any banking clients at           they track everything they legally can about the user, to  
+
+the moment, this way of thinking and doing fraud                  identify what interest rate he should pay. This includes,  
+
+detection is bound to spread to banks very soon.                  browser type, device, location, time, how long you  
+
+             LABS     PAGE 22  
+
+----------------------- Page 23-----------------------
+
+                                                                                      Steps forward  
+
+                                                                                      Banks in general are under threat by fintechs. A big  
+
+                                                                                      reason for this is the extent to which tech-startups  
+
+                                                                                      embrace the emerging AI technologies and leverage  
+
+                                                                                      them to outperform banks at their own game. The good  
+
+                                                                                      news for banks is that none of what these fintech  
+
+                                                                                      companies do is magic, it is simply new technology,  
+                  Over 2500 startups have Artificial  
+                                                                                      most of which can be bought, and some of it is even  
+                 Intelligence as a core part of their  
+                                                                                      free. By building internal competencies in the field of  
+                             business model.  
+                                                                                      data science and machine learning, banks can adopt  
+spend reading the conditions of the loan etc. The results                             the same AI tools currently used by fintechs. Take for  
+
+achieved by Zest Finance and their peers' algorithms                                  example the wealth management companies like  
+
+imply that companies which fail to implement this type                                Wealthfront and Betterment. Building a solution like that  
+
+of thinking in their organization will eventually be faced                            for a Norwegian bank is more than doable. But that  
+
+with a massive competitive disadvantage.                                              takes commitment from a high level in the organization,  
+
+                                                                                      and a realization that properly understanding the data  
+
+                                                                                      you have is growing in importance every single day.  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+                                                                                                                             PAGE 23          LABS  
+
+----------------------- Page 24-----------------------
+
+LABS   PAGE 24  
+
+----------------------- Page 25-----------------------
+
+Labs  
+
+Labs is conducting research and experiments to                                                                   evry.com/innovationlab   
+
+explore the future of financial services                                                                      thomas.hafsad@evry.com  
+
+                                                                                                                                                          
+
+Labs research papers  
+
+Small Business                                         First home buying                                     Engaging the   
+Banking                                                for Millennials                                       Millennials  
+Small businesses are not often prioritised by          Buying a home is the first major financial            Millennials are not engaged with banks.  
+banks, even though they account for a                  event for the Millennials. Banks need to              This paper brings insights to how banks  
+large part of the GDP in the Nordics. How              recognize and alleviate the uncertainty               can engage with this generation by  
+can banks create solutions that bring value            experienced by Millennials when                       exploring their mindset, lifestyle and  
+for both small businesses and banks?                   designing digital services.                           needs.   
+
+Blockchain: Powering                                  The New Wave of                                        Big Data  
+the Internet of Value                                 Artificial Intelligence                                in banking  
+Blockchain is poised to become a massive              Artificial Intelligence is becoming                    Norwegian banks are not using their  
+disruptor for the financial world. This paper         increasingly prevalent in our everyday lives.          data to optimize their decision making  
+describes the technology, how it will alter           This paper investigates the possible                   process and improve their business. This  
+the financial world, and a recommended                implications of the rise of Artificial                 research explores the value of Big Data  
+strategy for financial institutions.                   Intelligence in the banking industry.                 in banking.  
+
+                                                                                                                    PAGE 25        LABS  
+
+----------------------- Page 26-----------------------
+
+We bring information to life  
