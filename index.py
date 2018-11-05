@@ -4,6 +4,7 @@ Indexes the files specified in the metadata json file (e.g. data/data.json) and 
 from functools import lru_cache
 
 import nltk
+import nltk.corpus
 import sys
 from pathlib import Path
 from utils import load_json, write_json, read_all_file_text
@@ -14,6 +15,7 @@ def download_nltk_data_if_needed():
     nltk.download('punkt')
     nltk.download('averaged_perceptron_tagger')
     nltk.download('tagsets')
+    nltk.download('stopwords')
 
 
 def tokenize(text):
@@ -26,7 +28,9 @@ def tokenize(text):
 
 
 def extract_terms(tagged_tokens):
-    stop_words = {'a', 'an', 'the', 'is', 'are', 'at', 'which', 'that', 'on', 'to'}
+    stop_words = set(nltk.corpus.stopwords.words('english'))
+    # looks like some punctuation symbols are not tagged correctly
+    stop_words = stop_words.union({'’', '–', '—', '−', '..', '“', '[', ']', '‘', "'", '…', '”', "''", '"', '•'})
     stop_tags = {'.',  # sentence terminator (., !, ?)
                  ',',  # comma
                  ':',  # colon or ellipsis (:, ;, ...)
