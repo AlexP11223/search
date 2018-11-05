@@ -1,47 +1,7 @@
-"""
-Indexes the files specified in the metadata json file (e.g. data/data.json) and creates index file
-"""
-from functools import lru_cache
-
-import nltk
-import nltk.corpus
 import sys
 from pathlib import Path
+from textproc import tokenize, extract_terms
 from utils import load_json, write_json, read_all_file_text
-
-
-@lru_cache(maxsize=1)
-def download_nltk_data_if_needed():
-    nltk.download('punkt')
-    nltk.download('averaged_perceptron_tagger')
-    nltk.download('tagsets')
-    nltk.download('stopwords')
-
-
-def tokenize(text):
-    download_nltk_data_if_needed()
-
-    tokens = nltk.word_tokenize(text)
-    tagged_tokens = nltk.pos_tag(tokens)
-
-    return tagged_tokens
-
-
-def extract_terms(tagged_tokens):
-    stop_words = set(nltk.corpus.stopwords.words('english'))
-    # looks like some punctuation symbols are not tagged correctly
-    stop_words = stop_words.union({'’', '–', '—', '−', '..', '“', '[', ']', '‘', "'", '…', '”', "''", '"', '•'})
-    stop_tags = {'.',  # sentence terminator (., !, ?)
-                 ',',  # comma
-                 ':',  # colon or ellipsis (:, ;, ...)
-                 '--',  # dash
-                 '(', ')',  # parenthesis ((, ), [, ], {, })
-                 "'", '`',  # quotation
-                 }
-    words = {it[0].lower() for it in tagged_tokens if not it[1] in stop_tags}
-    words = words.difference(stop_words)
-
-    return words
 
 
 def load_terms(file_path):
@@ -62,6 +22,9 @@ def merge_terms(terms, new_terms):
 
 
 def index(metadata_file_path, index_file_path):
+    """
+    Indexes the files specified in the metadata json file (e.g. data/data.json) and creates index file
+    """
     metadata = load_json(metadata_file_path)
     files = [{'id': i, 'file': it['file'], 'title': it['title']} for i, it in enumerate(metadata)]
     input_dir = Path(metadata_file_path).parent
