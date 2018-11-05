@@ -1,219 +1,247 @@
-﻿----------------------- Page 1-----------------------
+Network Artificial 
+Intelligence (NAI) 
 
-Network Artificial  
-Intelligence (NAI)  
-
-draft-zheng-opsawg-network-ai-usecases 
-
-draft-li-opsawg-network-ai-arch 
-
- Yi Zheng, China Unicom 
-
- Zhenbin Li, Jinhui Zhang, Xu Shiping,  
- Dhruv Dhody, Huawei 
+draft-zheng-opsawg-network-ai-usecases
 
------------------------ Page 2-----------------------
+draft-li-opsawg-network-ai-arch
 
-                                                                                                           2 
-
-       Introduction  
-
-         Explore how Artificial Intelligence (AI) & Machine Learning (ML) can be  
-          applied to the network use-cases.   
-
-        As networks get more and more dynamic & complex, there are new  
-          challenges to network management and optimization!  
-
-             Can NAI help?  
-
-        What is a role of a central controller / SDN?  
-
-             Use Intelligence to drive the controller.  
-
-             Implement the recommendations & decisions made by the AI. 
-
-        This use-case document discusses how the Network Artificial Intelligence  
-          (NAI) is able to be applied in the various possible use-cases. 
-
-OPSAWG, IETF 98, Chicago 
+Yi Zheng, China Unicom
 
------------------------ Page 3-----------------------
+Zhenbin Li, Jinhui Zhang, Xu Shiping, 
+Dhruv Dhody, Huawei
 
-                                                                                                3 
-
-      Key Functions 
-
-                                                        Analytics             Closed  
-                                                        •Detection            Loop  
-         Telemetry                 Machine              •Prescription         Control  
-      and Historical  
-             Data                  Learning             •Prediction           •Via SDN 
-
-      • Build a Network Telemetry Analytics (NTA) engine, usually collocated with a central  
-         controller.  
-      • E2E deployment may involve multiple NTA engines coordinating with each other  
-        similar to the controllers.  
-
-OPSAWG, IETF 98, Chicago 
 
------------------------ Page 4-----------------------
 
-                                                                                                               4 
-         Enhance Path Computation and  
-         Traffic Engineering 
-
-                                                                                                                  Historical  
-   PCE has access to TEDB + LSP-DB                                                                  NTA          Record &   
-
-  Adding history records of the changes in the                                                                   Telemetry 
-                                                                           PCE 
-    LSP-DB and TEDB for future analytics 
-
-  Adding Network Telemetry as well as real-time  
-    analytics of traffic monitoring, statistics etc.  
-
-       PCE reroute/re-optimize using the historical trend                     PCEP, BGP-LS                Network  
-        and predications from NAI.                                             etc.                        Telemetry 
-
-       PCE could handle the changes in bandwidth  
-        utilization and other performance monitoring  
-        data for predicted traffic congestion avoidance. 
-
-   Build intelligent context - 
-
-       What are the LSPs used for?  
-
-  OPSAWG, IETF 98, Chicago 
+
+Introduction 
 
------------------------ Page 5-----------------------
+Explore how Artificial Intelligence (AI) & Machine Learning (ML) can be 
+applied to the network use-cases. 
+As networks get more and more dynamic & complex, there are new 
+challenges to network management and optimization! 
+Can NAI help? 
 
-                                                                                                             5 
-
-       Route Monitoring and Analytics 
-
-   BMP can be used to monitor the BGP peer.  
-
-  The controller can monitor the BGP status and routing information of the routers  
-    using BMP.  
-
-   Historical records of changes can be maintained in the NTA for analytics. 
-
-   Performance Telemetry information about inter-AS links.                                                         NTA 
-                                                                                                 Controller 
-   Possible use-cases 
-
-       BGP Route Leaks                                                     ISP1 
-
-       BGP Hijacks  
-
-       Traffic Analytics and intelligent Egress Traffic Engineering 
-
-   Intelligent detection via anomaly detection!  
-                                                                            ISP2 
-
-OPSAWG, IETF 98, Chicago 
 
------------------------ Page 6-----------------------
+What is a role of a central controller / SDN? 
+Use Intelligence to drive the controller. 
+Implement the recommendations & decisions made by the AI.
 
-                                                                                                                 6 
-
-          Multilayer Fault Detection in NFV 
-
-                                                                                                                NTA 
-  Telemetry data from all layers - 
-
-       CPU performance, memory usage, interface  
-        bandwidth and other KPI indicators can be monitored.                 VNF         VNF         VNF 
-
-       At the same time resource occupancy and the life  
-        cycle of NVF software process can also be monitored.   
-                                                                             Compute     Network    Storage 
-   Historical records – correlate and categorize.  
-
-  Through the NAI, the relevant statistical data in  
-    multiple levels can be analyzed and the models can                           Virtualization Layer             MANO 
-
-    be setup to locate the root cause for the possible  
-    fault in the multi-layer environment.  
-                                                                             Compute     Network    Storage 
-
-   Intelligent Health Diagnostic.  
-
-   OPSAWG, IETF 98, Chicago 
 
------------------------ Page 7-----------------------
+This use-case document discusses how the Network Artificial Intelligence 
+(NAI) is able to be applied in the various possible use-cases.
 
-                                                                                                        7 
-
-      Smart SFC 
-
-   Network Telemetry - delay, jitter, packet loss from the network.  
-                                                                                                          NTA 
-  Service telemetry - CPU/memory usage utilizations from the SFs.                       SFC  
-                                                                                     Controller 
-  Via sFlow/gRPC protocol and stored as historical records.                                             Telemetry 
-
-  The analytics component in NTA can build models to predict the  
-    impact on various Service Function Paths due to network events,  
-   traffic and  state of the SFPs and instruct the SFC controller to take  
-    necessary actions. 
-
-  The SFC controller can calculate new paths/reroute the SFC path  
-   to avoid congested Ports/SFFs or overloaded SFs.  
-
-OPSAWG, IETF 98, Chicago 
 
------------------------ Page 8-----------------------
+
+Key Functions
 
-                                                                                                      8 
-
-      Architectural Considerations 
-
-        Placement of NTA                              Building Blocks 
-
-            Collocated with Controller                     Telemetry Collector (Data  
-            Integrated with controller                       Collector) 
-
-        Handling of multi-domain                           Data Movement 
-
-          controllers                                       Analytics – real time or batch  
-
-            Analytics closer to the source is              ML Models 
-              better!  
-                                                            Visualization 
-            Hierarchy (like ACTN…)  
-                                                            Closed Loop Interactions 
-
-OPSAWG, IETF 98, Chicago 
+Telemetry 
+and Historical 
+Data
 
------------------------ Page 9-----------------------
+Machine 
+Learning 
 
-                                                                                                                9 
-
-       Next Steps 
-
-  Are these the right set of use-case to explore AI/ML in the networks?  
-
-       Do you have other use-cases?  
-
-       Is it useful to document them and discuss?  
-
-       Please suggest and collaborate!  
-
-  What are the architectural considerations?  
-
-       Are there any protocol considerations?  
-
-       Are there are operations considerations?  
-
-   Build prototypes, reuse various possible open-source.  
-
-       Hopefully in a future Hackathon!  
-
-OPSAWG, IETF 98, Chicago 
+Analytics
 
------------------------ Page 10-----------------------
+•Detection
+•Prescription
+•Prediction
 
-                                                                                                                        10 
-
-OPSAWG, IETF 98, Chicago 
+
+
+
+Closed 
+Loop 
+Control 
+
+•Via SDN
+
+
+
+
+•Build a Network Telemetry Analytics (NTA) engine, usually collocated with a central 
+controller. 
+•E2E deployment may involve multiple NTA engines coordinating with each other 
+similar to the controllers. 
+
+
+
+Enhance Path Computation and 
+Traffic Engineering
+
+PCE has access to TEDB + LSP-DB
+Adding history records of the changes in the 
+LSP-DB and TEDB for future analytics
+Adding Network Telemetry as well as real-time 
+analytics of traffic monitoring, statistics etc. 
+PCE reroute/re-optimize using the historical trend 
+and predications from NAI.
+PCE could handle the changes in bandwidth 
+utilization and other performance monitoring 
+data for predicted traffic congestion avoidance.
+
+
+Build intelligent context -
+What are the LSPs used for? 
+
+
+
+
+PCE
+
+NTA
+
+Historical 
+Record & 
+
+Telemetry
+
+Network 
+Telemetry
+
+PCEP, BGP-LS 
+etc.
+
+
+Route Monitoring and Analytics
+
+BMP can be used to monitor the BGP peer. 
+The controller can monitor the BGP status and routing information of the routers 
+using BMP. 
+Historical records of changes can be maintained in the NTA for analytics.
+Performance Telemetry information about inter-AS links. 
+Possible use-cases
+BGP Route Leaks 
+BGP Hijacks 
+Traffic Analytics and intelligent Egress Traffic Engineering
+
+
+Intelligent detection via anomaly detection! 
+
+
+ISP1
+
+ISP2
+
+Controller
+
+NTA
+
+
+Multilayer Fault Detection in NFV
+
+Telemetry data from all layers -
+CPU performance, memory usage, interface 
+bandwidth and other KPI indicators can be monitored. 
+At the same time resource occupancy and the life 
+cycle of NVF software process can also be monitored. 
+
+
+Historical records –correlate and categorize. 
+Through the NAI, the relevant statistical data in 
+multiple levels can be analyzed and the models can 
+be setup to locate the root cause for the possible 
+fault in the multi-layer environment. 
+Intelligent Health Diagnostic. 
+
+
+Compute
+
+Network
+
+Storage
+
+Virtualization Layer
+
+Compute
+
+Network
+
+Storage
+
+VNF
+
+VNF
+
+VNF
+
+MANO
+
+NTA
+
+
+Smart SFC
+
+Network Telemetry -delay, jitter, packet loss from the network. 
+Service telemetry -CPU/memory usage utilizations from the SFs.
+Via sFlow/gRPCprotocol and stored as historical records.
+The analytics component in NTA can build models to predict the 
+impact on various Service Function Paths due to network events, 
+traffic and state of the SFPs and instruct the SFC controller to take 
+necessary actions.
+The SFC controller can calculate new paths/reroute the SFC path 
+to avoid congested Ports/SFFs or overloaded SFs. 
+
+
+SFC 
+
+Controller
+
+NTA
+
+Telemetry
+
+
+Architectural Considerations
+
+Placement of NTA 
+Collocated with Controller
+Integrated with controller
+
+
+Handling of multi-domain 
+controllers
+Analytics closer to the source is 
+better! 
+Hierarchy (like ACTN…) 
+
+
+
+
+Building Blocks
+Telemetry Collector (Data 
+Collector)
+Data Movement
+Analytics –real time or batch 
+ML Models
+Visualization
+Closed Loop Interactions
+
+
+
+
+
+Next Steps
+
+Are these the right set of use-case to explore AI/ML in the networks? 
+Do you have other use-cases? 
+Is it useful to document them and discuss? 
+Please suggest and collaborate! 
+
+
+What are the architectural considerations? 
+Are there any protocol considerations? 
+Are there are operations considerations? 
+
+
+Build prototypes, reuse various possible open-source. 
+Hopefully in a future Hackathon! 
+
+
+
+
+
+Thank You!
+
+
+

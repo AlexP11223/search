@@ -21,6 +21,6 @@ def write_json(data, file_path):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
-def read_all_file_text(file_path, encoding='utf-8-sig'):
+def read_all_file_text(file_path, encoding='utf-8'):
     with open(file_path, 'r', encoding=encoding) as f:
         return f.read()
