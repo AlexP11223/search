@@ -10,8 +10,8 @@ def test_index(tmp_path):
     assert index_file.is_file()
     index_data = load_json(index_file)
     assert index_data['files']
-    assert len(index_data['files']) == 3
+    assert 3 == len(index_data['files'])
     assert index_data['terms']
-    assert index_data['terms']['brutus'] == [0, 1, 2]
-    assert index_data['terms']['julius'] == [0]
-    assert index_data['terms']['fault'] == [1]
+    assert [0, 1, 2] == index_data['terms']['brutus']
+    assert [0] == index_data['terms']['julius']
+    assert [1] == index_data['terms']['fault']
