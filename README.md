@@ -11,7 +11,7 @@ Requirements:
 
 Install dependencies by executing `pipenv install`. Use `pipenv shell` or `pipenv run` to run scripts.
 
-Use PyTest to run tests: `python -m pytest -v .\test.py` or in PyCharm.
+Use PyTest to run tests: `python -m pytest -v test.py` or in PyCharm.
 
 Run
 
