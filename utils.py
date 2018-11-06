@@ -24,3 +24,7 @@ def write_json(data, file_path):
 def read_all_file_text(file_path, encoding='utf-8'):
     with open(file_path, 'r', encoding=encoding) as f:
         return f.read()
+
+
+def filter_dict_keys(d, allowed_keys):
+    return {key: d[key] for key in d if key in allowed_keys}
