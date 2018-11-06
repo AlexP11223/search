@@ -1,3 +1,4 @@
+from datetime import datetime
 import sys
 from pathlib import Path
 from textproc import tokenize, extract_terms
@@ -5,7 +6,7 @@ from utils import load_json, write_json, read_all_file_text
 
 
 def load_terms(file_path):
-    print('Loading terms from ' + str(file_path))
+    print(f'[{datetime.now().strftime("%H:%M:%S.%f")[:-3]}] Loading terms from {file_path}')
 
     text = read_all_file_text(file_path)
 
