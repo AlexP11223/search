@@ -61,6 +61,7 @@ def main():
             print(f'Found {len(results)} documents:')
             for result in results:
                 print(f'{result["title"]} ({result["file"]}, {result["url"]})')
+        print()
 
 
 if __name__ == '__main__':
