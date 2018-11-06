@@ -26,7 +26,7 @@ def index(metadata_file_path, index_file_path):
     Indexes the files specified in the metadata json file (e.g. data/data.json) and creates index file
     """
     metadata = load_json(metadata_file_path)
-    files = [{'id': i, 'file': it['file'], 'title': it['title']} for i, it in enumerate(metadata)]
+    files = [{'id': i, 'file': it['file'], 'title': it['title'], 'url': it['url']} for i, it in enumerate(metadata)]
     input_dir = Path(metadata_file_path).parent
     terms = {}
     for file in files:
