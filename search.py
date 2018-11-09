@@ -1,4 +1,4 @@
-import sys
+import argparse
 from sys import stdin
 from textproc import tokenize, extract_terms
 from utils import load_json, filter_dict_keys
@@ -29,25 +29,19 @@ class Search:
                 for i in result_ids]
 
 
-def show_usage():
-    print('Reads data from the index file and accepts search queries from stdin')
-    print('until empty line is entered.')
-    print('Currently supports only AND queries')
-    print('e.g. "machine learning optimization" to find documents containing all these words.')
-    print('Usage:')
-    print('    python search.py index_file')
-    print('Example:')
-    print('    python search.py output/index.json')
-
-
 def main():
-    if len(sys.argv) < 2:
-        show_usage()
-        return
+    parser = argparse.ArgumentParser(
+        description='''Reads data from the index file and accepts search queries from stdin
+until empty line is entered.
+Currently supports only AND queries
+e.g. "machine learning optimization" to find documents containing all these words.''',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='''Example:
+  search.py output/index.json''')
+    parser.add_argument('index_file', type=str, help='path to the index file')
+    args = parser.parse_args()
 
-    index_file_path = sys.argv[1]
-
-    search = Search(index_file_path)
+    search = Search(args.index_file)
 
     while True:
         print('Enter search query: ')

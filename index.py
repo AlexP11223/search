@@ -1,5 +1,5 @@
+import argparse
 from datetime import datetime
-import sys
 from pathlib import Path
 from textproc import tokenize, extract_terms
 from utils import load_json, write_json, read_all_file_text
@@ -38,22 +38,18 @@ def index(metadata_file_path, index_file_path):
     write_json(data, index_file_path)
 
 
-def show_usage():
-    print('Usage:')
-    print('    python index.py metadata_file output_index_file')
-    print('Example:')
-    print('    python index.py data/data.json output/index.json')
-
-
 def main():
-    if len(sys.argv) < 3:
-        show_usage()
-        return
+    parser = argparse.ArgumentParser(
+        description='''Indexes the files specified in the metadata json file (e.g. data/data.json)
+and creates index file''',
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog='''Example:
+  index.py data/data.json output/index.json''')
+    parser.add_argument('metadata_file', type=str, help='path to the metadata json file')
+    parser.add_argument('output_index_file', type=str, help='path to the index file (that will be created)')
+    args = parser.parse_args()
 
-    metadata_file_path = sys.argv[1]
-    index_file_path = sys.argv[2]
-
-    index(metadata_file_path, index_file_path)
+    index(args.metadata_file, args.output_index_file)
 
 
 if __name__ == '__main__':
