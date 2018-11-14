@@ -1,7 +1,7 @@
 import argparse
 from datetime import datetime
 from pathlib import Path
-from textproc import tokenize, extract_terms
+from textproc import extract_terms
 from utils import load_json, write_json, read_all_file_text
 
 
@@ -10,7 +10,7 @@ def load_terms(file_path):
 
     text = read_all_file_text(file_path)
 
-    return extract_terms(tokenize(text))
+    return extract_terms(text)
 
 
 def merge_terms(terms, new_terms):

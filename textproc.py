@@ -11,16 +11,15 @@ def download_nltk_data_if_needed():
     nltk.download('stopwords')
 
 
-def tokenize(text):
-    download_nltk_data_if_needed()
+def extract_terms(text):
+    def tokenize():
+        download_nltk_data_if_needed()
 
-    tokens = nltk.word_tokenize(text)
-    tagged_tokens = nltk.pos_tag(tokens)
+        tokens = nltk.word_tokenize(text)
+        return nltk.pos_tag(tokens)
 
-    return tagged_tokens
+    tagged_tokens = tokenize()
 
-
-def extract_terms(tagged_tokens):
     stop_words = set(nltk.corpus.stopwords.words('english'))
     # looks like some punctuation symbols are not tagged correctly
     stop_words = stop_words.union({'’', '–', '—', '−', '..', '“', '[', ']', '‘', "'", '…', '”', "''", '"', '•'})

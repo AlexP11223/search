@@ -1,6 +1,6 @@
 import argparse
 from sys import stdin
-from textproc import tokenize, extract_terms
+from textproc import extract_terms
 from utils import load_json, filter_dict_keys
 
 
@@ -13,7 +13,7 @@ class Search:
         self.index_data = load_json(index_file_path)
 
     def find(self, query_text):
-        query_terms = extract_terms(tokenize(query_text.strip()))
+        query_terms = extract_terms(query_text.strip())
         if not query_terms:
             return []
 
