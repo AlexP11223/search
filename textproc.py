@@ -13,24 +13,23 @@ def download_nltk_data_if_needed():
 
 def extract_terms(text):
     def tokenize():
-        download_nltk_data_if_needed()
-
         tokens = nltk.word_tokenize(text)
         return nltk.pos_tag(tokens)
 
-    tagged_tokens = tokenize()
+    def normalize(tagged_tokens):
+        stop_words = set(nltk.corpus.stopwords.words('english'))
+        # looks like some punctuation symbols are not tagged correctly
+        stop_words = stop_words.union({'’', '–', '—', '−', '..', '“', '[', ']', '‘', "'", '…', '”', "''", '"', '•'})
+        stop_tags = {'.',  # sentence terminator (., !, ?)
+                     ',',  # comma
+                     ':',  # colon or ellipsis (:, ;, ...)
+                     '--',  # dash
+                     '(', ')',  # parenthesis ((, ), [, ], {, })
+                     "'", '`',  # quotation
+                     }
+        words = {it[0].lower() for it in tagged_tokens if not it[1] in stop_tags}
+        return words.difference(stop_words)
 
-    stop_words = set(nltk.corpus.stopwords.words('english'))
-    # looks like some punctuation symbols are not tagged correctly
-    stop_words = stop_words.union({'’', '–', '—', '−', '..', '“', '[', ']', '‘', "'", '…', '”', "''", '"', '•'})
-    stop_tags = {'.',  # sentence terminator (., !, ?)
-                 ',',  # comma
-                 ':',  # colon or ellipsis (:, ;, ...)
-                 '--',  # dash
-                 '(', ')',  # parenthesis ((, ), [, ], {, })
-                 "'", '`',  # quotation
-                 }
-    words = {it[0].lower() for it in tagged_tokens if not it[1] in stop_tags}
-    words = words.difference(stop_words)
+    download_nltk_data_if_needed()
 
-    return words
+    return normalize(tokenize())
