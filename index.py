@@ -5,12 +5,12 @@ from textproc import extract_terms
 from utils import load_json, write_json, read_all_file_text
 
 
-def load_terms(file_path):
+def load_terms(file_path, lemmatization=True):
     print(f'[{datetime.now().strftime("%H:%M:%S.%f")[:-3]}] Loading terms from {file_path}')
 
     text = read_all_file_text(file_path)
 
-    return extract_terms(text)
+    return extract_terms(text, lemmatization=lemmatization)
 
 
 def merge_terms(terms, new_terms):
@@ -22,7 +22,7 @@ def merge_terms(terms, new_terms):
     return terms
 
 
-def index(metadata_file_path, index_file_path):
+def index(metadata_file_path, index_file_path, lemmatization=True):
     """
     Indexes the files specified in the metadata json file (e.g. data/data.json) and creates index file
     """
@@ -31,10 +31,11 @@ def index(metadata_file_path, index_file_path):
     input_dir = Path(metadata_file_path).parent
     terms = {}
     for file in files:
-        file_terms = load_terms(input_dir / file['file'])
+        file_terms = load_terms(input_dir / file['file'], lemmatization=lemmatization)
         file_terms = {term: [file['id']] for term in file_terms}
         terms = merge_terms(terms, file_terms)
-    data = {'files': files, 'terms': terms}
+    config = {'lemmatization': lemmatization}
+    data = {'config': config, 'files': files, 'terms': terms}
     write_json(data, index_file_path)
 
 
@@ -47,9 +48,10 @@ and creates index file''',
   index.py data/data.json output/index.json''')
     parser.add_argument('metadata_file', type=str, help='path to the metadata json file')
     parser.add_argument('output_index_file', type=str, help='path to the index file (that will be created)')
+    parser.add_argument('--disable-lemmatizer', action='store_true', help='if specified, lemmatization is not performed')
     args = parser.parse_args()
 
-    index(args.metadata_file, args.output_index_file)
+    index(args.metadata_file, args.output_index_file, lemmatization=not args.disable_lemmatizer)
 
 
 if __name__ == '__main__':

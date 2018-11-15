@@ -11,9 +11,10 @@ class Search:
 
     def __init__(self, index_file_path):
         self.index_data = load_json(index_file_path)
+        self.config = self.index_data['config']
 
     def find(self, query_text):
-        query_terms = extract_terms(query_text.strip())
+        query_terms = extract_terms(query_text.strip(), lemmatization=self.config['lemmatization'])
         if not query_terms:
             return []
 
