@@ -14,6 +14,13 @@ def index_file(request, tmp_path):
     return index_file
 
 
+@pytest.fixture
+def docs():
+    return [{'file': 'doc1.txt', 'url': 'example.com/doc1.pdf', 'title': "Doc 1"},
+            {'file': 'doc2.txt', 'url': 'example.com/doc2.pdf', 'title': "Doc 2"},
+            {'file': 'doc3.txt', 'url': 'example.com/doc3.pdf', 'title': "Doc 3"}]
+
+
 def test_index_basic(tmp_path):
     index_file = tmp_path / 'output' / 'index' / 'index.json'
     index(metadata_file_path, str(index_file), lemmatization=False)
@@ -43,33 +50,23 @@ def test_index_lemmatized(tmp_path):
     assert 'killed' not in index_data['terms']
 
 
-def test_search(index_file):
-    file1 = {'file': 'doc1.txt', 'url': 'example.com/doc1.pdf', 'title': "Doc 1"}
-    file2 = {'file': 'doc2.txt', 'url': 'example.com/doc2.pdf', 'title': "Doc 2"}
-    file3 = {'file': 'doc3.txt', 'url': 'example.com/doc3.pdf', 'title': "Doc 3"}
-
+def test_search(index_file, docs):
     search = Search(str(index_file))
-
     assert [] == search.find('Eyjafjallajokull')
     assert [] == search.find('')
     assert [] == search.find('          ')
-    assert [file1, file2] == search.find('caesar')
-    assert [file1, file2, file3] == search.find('brutus')
-    assert [file1] == search.find('Brutus Julius')
-    assert [file1] == search.find('Brutus,    jULiUS    ')
-    assert [file1] == search.find('Brutus and Julius')
-    assert [file1] == search.find('Julius killed')
+    assert [docs[0], docs[1]] == search.find('caesar')
+    assert [docs[0], docs[1], docs[2]] == search.find('brutus')
+    assert [docs[0]] == search.find('Brutus Julius')
+    assert [docs[0]] == search.find('Brutus,    jULiUS    ')
+    assert [docs[0]] == search.find('Brutus and Julius')
+    assert [docs[0]] == search.find('Julius killed')
 
 
 @pytest.mark.parametrize("index_file", [{'lemmatization': True}], indirect=True)
-def test_search_lemmatized(index_file):
-    file1 = {'file': 'doc1.txt', 'url': 'example.com/doc1.pdf', 'title': "Doc 1"}
-    file2 = {'file': 'doc2.txt', 'url': 'example.com/doc2.pdf', 'title': "Doc 2"}
-    file3 = {'file': 'doc3.txt', 'url': 'example.com/doc3.pdf', 'title': "Doc 3"}
-
+def test_search_lemmatized(index_file, docs):
     search = Search(str(index_file))
-
-    assert [file1] == search.find('Julius kill')
-    assert [file1] == search.find('Julius KILLS')
-    assert [file2] == search.find('nobles')
-    assert [file3] == search.find('said')
+    assert [docs[0]] == search.find('Julius kill')
+    assert [docs[0]] == search.find('Julius KILLS')
+    assert [docs[1]] == search.find('nobles')
+    assert [docs[2]] == search.find('said')
