@@ -5,19 +5,6 @@ from nltk.corpus import wordnet
 from nltk.stem import WordNetLemmatizer
 
 
-stop_words = set(nltk.corpus.stopwords.words('english')).union(
-    # looks like some punctuation symbols are not tagged correctly
-    {'’', '–', '—', '−', '..', '“', '[', ']', '‘', "'", '…', '”', "''", '"', '•'})
-
-stop_tags = {'.',  # sentence terminator (., !, ?)
-             ',',  # comma
-             ':',  # colon or ellipsis (:, ;, ...)
-             '--',  # dash
-             '(', ')',  # parenthesis ((, ), [, ], {, })
-             "'", '`',  # quotation
-             }
-
-
 @lru_cache(maxsize=1)
 def download_nltk_data_if_needed():
     nltk.download('punkt')
@@ -50,6 +37,16 @@ def extract_terms(text, lemmatization=True):
         return {it[0] if it[1] is None else lemmatizer.lemmatize(it[0], it[1]) for it in wd_tagged_words}
 
     def normalize(tagged_tokens):
+        stop_words = set(nltk.corpus.stopwords.words('english')).union(
+            # looks like some punctuation symbols are not tagged correctly
+            {'’', '–', '—', '−', '..', '“', '[', ']', '‘', "'", '…', '”', "''", '"', '•'})
+        stop_tags = {'.',  # sentence terminator (., !, ?)
+                     ',',  # comma
+                     ':',  # colon or ellipsis (:, ;, ...)
+                     '--',  # dash
+                     '(', ')',  # parenthesis ((, ), [, ], {, })
+                     "'", '`',  # quotation
+                     }
         tagged_words = {(it[0].lower(), it[1]) for it in tagged_tokens if not it[1] in stop_tags}
         if lemmatization:
             words = lemmatize(tagged_words)
