@@ -1,6 +1,6 @@
 import argparse
 from sys import stdin
-from textproc import extract_terms
+from textproc import extract_terms_set
 from utils import load_json, filter_dict_keys
 
 
@@ -14,7 +14,7 @@ class Search:
         self.config = self.index_data['config']
 
     def find(self, query_text):
-        query_terms = extract_terms(query_text.strip(), lemmatization=self.config['lemmatization'])
+        query_terms = extract_terms_set(query_text.strip(), lemmatization=self.config['lemmatization'])
         if not query_terms:
             return []
 

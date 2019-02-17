@@ -53,17 +53,38 @@ def get_wordnet_pos(treebank_tag):
 def lemmatize(tagged_words):
     wd_tagged_words = {(it[0], get_wordnet_pos(it[1])) for it in tagged_words}
     lemmatizer = WordNetLemmatizer()
-    return {it[0] if it[1] is None else lemmatizer.lemmatize(it[0], it[1]) for it in wd_tagged_words}
+    return [it[0] if it[1] is None else lemmatizer.lemmatize(it[0], it[1]) for it in wd_tagged_words]
 
 
-def normalize(tagged_tokens, lemmatization=True):
+def normalize_set(tagged_tokens, lemmatization=True):
     tagged_words = {(it[0].lower(), it[1]) for it in tagged_tokens if not it[1] in get_stop_tags()}
     if lemmatization:
-        words = lemmatize(tagged_words)
+        words = set(lemmatize(tagged_words))
     else:
         words = {it[0] for it in tagged_words}
     return words.difference(get_stop_words())
 
 
-def extract_terms(text, lemmatization=True):
-    return normalize(tokenize(text), lemmatization)
+def normalize_list(tagged_tokens, lemmatization=True):
+    tagged_words = [(it[0].lower(), it[1]) for it in tagged_tokens if not it[1] in get_stop_tags()]
+    if lemmatization:
+        words = lemmatize(tagged_words)
+    else:
+        words = [it[0] for it in tagged_words]
+    stop_words = get_stop_words()
+    words = [word for word in words if not word in stop_words]
+    return words
+
+
+def extract_terms_set(text, lemmatization=True):
+    """
+    Tokenizes text and returns normalized set of terms (no repetitions)
+    """
+    return normalize_set(tokenize(text), lemmatization)
+
+
+def extract_terms_list(text, lemmatization=True):
+    """
+    Tokenizes text and returns normalized list of terms
+    """
+    return normalize_list(tokenize(text), lemmatization)

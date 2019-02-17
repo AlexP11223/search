@@ -1,42 +1,68 @@
 import argparse
 from datetime import datetime
 from pathlib import Path
-from textproc import extract_terms
+from textproc import extract_terms_set
 from utils import load_json, write_json, read_all_file_text
 
 
-def load_terms(file_path, lemmatization=True):
-    print(f'[{datetime.now().strftime("%H:%M:%S.%f")[:-3]}] Loading terms from {file_path}')
-
-    text = read_all_file_text(file_path)
-
-    return extract_terms(text, lemmatization=lemmatization)
-
-
-def merge_terms(terms, new_terms):
-    for term in new_terms:
-        if term in terms:
-            terms[term] += new_terms[term]
-        else:
-            terms[term] = new_terms[term]
-    return terms
-
-
-def index(metadata_file_path, index_file_path, lemmatization=True):
+class Index:
     """
     Indexes the files specified in the metadata json file (e.g. data/data.json) and creates index file
     """
-    metadata = load_json(metadata_file_path)
-    files = [{'id': i, 'file': it['file'], 'title': it['title'], 'url': it['url']} for i, it in enumerate(metadata)]
-    input_dir = Path(metadata_file_path).parent
-    terms = {}
-    for file in files:
-        file_terms = load_terms(input_dir / file['file'], lemmatization=lemmatization)
-        file_terms = {term: [file['id']] for term in file_terms}
-        terms = merge_terms(terms, file_terms)
-    config = {'lemmatization': lemmatization}
-    data = {'config': config, 'files': files, 'terms': terms}
-    write_json(data, index_file_path)
+
+    def __init__(self, metadata_file_path, lemmatization=True):
+        self._lemmatization = lemmatization
+
+        metadata = load_json(metadata_file_path)
+        self._input_dir = Path(metadata_file_path).parent
+        self._files = [{'id': i,
+                        'file': it['file'],
+                        'title': it['title'],
+                        'url': it['url']
+                        } for i, it in enumerate(metadata)]
+
+    def _make_config(self):
+        return {'lemmatization': self._lemmatization}
+
+    def _index(self):
+        """
+        Produces index data, must be implemented in subclasses
+        :return: dict
+        """
+        raise NotImplementedError('')
+
+    def create(self, index_file_path):
+        data = {'config': self._make_config(), **self._index()}
+        write_json(data, index_file_path)
+
+
+class BooleanIndex(Index):
+    def __init__(self, metadata_file_path, lemmatization=True):
+        super().__init__(metadata_file_path, lemmatization)
+
+    @staticmethod
+    def _merge_terms(terms, new_terms):
+        for term in new_terms:
+            if term in terms:
+                terms[term] += new_terms[term]
+            else:
+                terms[term] = new_terms[term]
+        return terms
+
+    def _load_terms(self, file_path):
+        print(f'[{datetime.now().strftime("%H:%M:%S.%f")[:-3]}] Loading terms from {file_path}')
+
+        text = read_all_file_text(file_path)
+
+        return extract_terms_set(text, lemmatization=self._lemmatization)
+
+    def _index(self):
+        terms = {}
+        for file in self._files:
+            file_terms = self._load_terms(self._input_dir / file['file'])
+            file_terms = {term: [file['id']] for term in file_terms}
+            terms = self._merge_terms(terms, file_terms)
+        return {'files': self._files, 'terms': terms}
 
 
 def main():
@@ -51,7 +77,7 @@ and creates index file''',
     parser.add_argument('--disable-lemmatizer', action='store_true', help='if specified, lemmatization is not performed')
     args = parser.parse_args()
 
-    index(args.metadata_file, args.output_index_file, lemmatization=not args.disable_lemmatizer)
+    BooleanIndex(args.metadata_file, lemmatization=not args.disable_lemmatizer).create(args.output_index_file)
 
 
 if __name__ == '__main__':

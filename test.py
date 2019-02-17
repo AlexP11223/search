@@ -1,6 +1,6 @@
 import pytest
 
-from index import index
+from index import BooleanIndex
 from search import Search
 from utils import load_json
 
@@ -10,7 +10,7 @@ metadata_file_path = 'test_data/data.json'
 @pytest.fixture(params=[{'lemmatization': False}, {'lemmatization': True}], ids=['no-lemm', 'lemm'])
 def index_file(request, tmp_path):
     index_file = tmp_path / 'index.json'
-    index(metadata_file_path, str(index_file), lemmatization=request.param['lemmatization'])
+    BooleanIndex(metadata_file_path, lemmatization=request.param['lemmatization']).create(str(index_file))
     return index_file
 
 
@@ -23,7 +23,7 @@ def docs():
 
 def test_index_basic(tmp_path):
     index_file = tmp_path / 'output' / 'index' / 'index.json'
-    index(metadata_file_path, str(index_file), lemmatization=False)
+    BooleanIndex(metadata_file_path, lemmatization=False).create(str(index_file))
     assert index_file.is_file()
     index_data = load_json(index_file)
     assert index_data['files']
@@ -37,7 +37,7 @@ def test_index_basic(tmp_path):
 
 def test_index_lemmatized(tmp_path):
     index_file = tmp_path / 'output' / 'index' / 'index.json'
-    index(metadata_file_path, str(index_file), lemmatization=True)
+    BooleanIndex(metadata_file_path, lemmatization=True).create(str(index_file))
     assert index_file.is_file()
     index_data = load_json(index_file)
     assert index_data['files']
