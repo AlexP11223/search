@@ -10,11 +10,35 @@ class Search:
     """
 
     def __init__(self, index_file_path):
-        self.index_data = load_json(index_file_path)
-        self.config = self.index_data['config']
+        index_data = load_json(index_file_path)
+        config = index_data['config']
+        mode = config.get('mode', 'bool')
+        self.backend = {
+            'bool': BooleanSearchBackend
+        }[mode](index_data, config)
 
     def find(self, query_text):
-        query_terms = extract_terms_set(query_text.strip(), lemmatization=self.config['lemmatization'])
+        return self.backend.get_results(query_text)
+
+
+class SearchBackend:
+    def __init__(self, index_data, config):
+        self.config = config
+        self.index_data = index_data
+
+    def _get_query_terms(self, query_text):
+        return extract_terms_set(query_text.strip(), lemmatization=self.config['lemmatization'])
+
+    def get_results(self, query_text):
+        raise NotImplementedError('')
+
+
+class BooleanSearchBackend(SearchBackend):
+    def __init__(self, index_data, config):
+        super().__init__(index_data, config)
+
+    def get_results(self, query_text):
+        query_terms = self._get_query_terms(query_text)
         if not query_terms:
             return []
 
