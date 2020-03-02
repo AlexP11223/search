@@ -1,6 +1,8 @@
-Simple document search (boolean retrieval) created during an university course based on [Christopher D. Manning, Prabhakar Raghavan and Hinrich Schütze, Introduction to Information Retrieval, Cambridge University Press. 2008](https://nlp.stanford.edu/IR-book/).
+Simple document search (boolean retrieval or TF-IDF) created during an university course based on [Christopher D. Manning, Prabhakar Raghavan and Hinrich Schütze, Introduction to Information Retrieval, Cambridge University Press. 2008](https://nlp.stanford.edu/IR-book/).
 
 Currently supports only AND queries, e.g. `machine learning optimization` to find documents containing all these words.
+
+![](https://i.imgur.com/0RGZ5MP.png)
 
 # Usage
 
