@@ -1,8 +1,10 @@
 import argparse
 from datetime import datetime
 from pathlib import Path
-from textproc import extract_terms_set
+from textproc import extract_terms_set, extract_terms_list
 from utils import load_json, write_json, read_all_file_text
+from sklearn.feature_extraction.text import TfidfVectorizer
+import jsonpickle
 
 
 class Index:
@@ -65,6 +67,29 @@ class BooleanIndex(Index):
         return {'files': self._files, 'terms': terms}
 
 
+class TfIdfIndex(Index):
+    def __init__(self, metadata_file_path, lemmatization=True):
+        super().__init__(metadata_file_path, lemmatization)
+
+    def _make_config(self):
+        return {**super()._make_config(), 'mode': 'tfidf'}
+
+    def _index(self):
+        vectorizer = TfidfVectorizer(tokenizer=lambda text: extract_terms_list(text, self._lemmatization))
+        doc_term_matrix = vectorizer.fit_transform([read_all_file_text(self._input_dir / file['file']) for file in self._files])
+
+        print(f'Created {doc_term_matrix.shape} doc-term matrix')
+
+        # It is possible save only some vectorizer properties (like vocabulary, idf) instead of pickling the whole object
+        # but there is no way to do this with TfidfVectorizer except messing with private properties
+        # as shown here http://thiagomarzagao.com/2015/12/08/saving-TfidfVectorizer-without-pickles/
+        # which is probably not a good idea, can break in future sklearn versions, etc.
+        # The doc-term matrix is also serialized in not a very human-readable format unfortunately,
+        # it is possible to store it in a less efficient but simpler format via .toarray().tolist()
+        pickler = jsonpickle.Pickler()
+        return {'files': self._files, 'tfidf_doc_term_matrix': pickler.flatten(doc_term_matrix), 'tfidf_vectorizer': pickler.flatten(vectorizer)}
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='''Indexes the files specified in the metadata json file (e.g. data/data.json)
@@ -75,9 +100,13 @@ and creates index file''',
     parser.add_argument('metadata_file', type=str, help='path to the metadata json file')
     parser.add_argument('output_index_file', type=str, help='path to the index file (that will be created)')
     parser.add_argument('--disable-lemmatizer', action='store_true', help='if specified, lemmatization is not performed')
+    parser.add_argument('--mode', choices={'bool', 'tfidf'}, default='bool', help='index/search type: boolean retrieval or TF-IDF (default boolean)')
     args = parser.parse_args()
 
-    BooleanIndex(args.metadata_file, lemmatization=not args.disable_lemmatizer).create(args.output_index_file)
+    {
+        'bool': lambda _: BooleanIndex(args.metadata_file, lemmatization=not args.disable_lemmatizer).create(args.output_index_file),
+        'tfidf': lambda _: TfIdfIndex(args.metadata_file, lemmatization=not args.disable_lemmatizer).create(args.output_index_file)
+    }[args.mode](None)
 
 
 if __name__ == '__main__':

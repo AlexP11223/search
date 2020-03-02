@@ -1,7 +1,12 @@
 import argparse
+import itertools
 from sys import stdin
+
+from sklearn.metrics import pairwise_distances
+
 from textproc import extract_terms_set
 from utils import load_json, filter_dict_keys
+import jsonpickle
 
 
 class Search:
@@ -14,7 +19,8 @@ class Search:
         config = index_data['config']
         mode = config.get('mode', 'bool')
         self.backend = {
-            'bool': BooleanSearchBackend
+            'bool': BooleanSearchBackend,
+            'tfidf': TfIdfSearchBackend
         }[mode](index_data, config)
 
     def find(self, query_text):
@@ -52,6 +58,27 @@ class BooleanSearchBackend(SearchBackend):
         result_ids = sorted(list(set.intersection(*postings_lists)))
         return [filter_dict_keys(self.index_data['files'][i], allowed_keys={'file', 'title', 'url'})
                 for i in result_ids]
+
+
+class TfIdfSearchBackend(SearchBackend):
+    def __init__(self, index_data, config):
+        super().__init__(index_data, config)
+
+        unpickler = jsonpickle.Unpickler()
+        self.doc_term_matrix = unpickler.restore(index_data['tfidf_doc_term_matrix'])
+        self.vectorizer = unpickler.restore(index_data['tfidf_vectorizer'])
+        self.vectorizer.tokenizer = self._get_query_terms
+
+    def get_results(self, query_text):
+        if not self._get_query_terms(query_text):
+            return []
+
+        query_vector = self.vectorizer.transform([query_text])
+
+        distances = pairwise_distances(self.doc_term_matrix, query_vector, metric='cosine').tolist()
+        distances = list(zip(list(itertools.chain.from_iterable(distances)), self.index_data['files']))
+
+
 
 
 def main():

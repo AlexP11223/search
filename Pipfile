@@ -6,6 +6,10 @@ name = "pypi"
 [packages]
 pytest = "*"
 nltk = "*"
+numpy = "*"
+scipy = "*"
+scikit-learn = "*"
+jsonpickle = "*"
 
 [dev-packages]
 
